@@ -48,12 +48,12 @@ const LANGS = {
 
 // Category cover images (used on index page) — update paths to your own images
 const CAT_COVERS = {
-  drinks:    "images/cover-drinks.webp",
-  snacks:    "images/cover-snacks.webp",
-  dishes:    "images/cover-dishes.webp",
-  desserts:  "images/cover-desserts.webp",
-  breakfast: "images/cover-breakfast.webp",
-  shisha:    "images/cover-shisha.webp"
+  drinks:    "cover-drinks.webp",
+  snacks:    "cover-snacks.webp",
+  dishes:    "cover-dishes.webp",
+  desserts:  "cover-desserts.webp",
+  breakfast: "cover-breakfast.webp",
+  shisha:    "cover-shisha.webp"
 };
 
 // Category icons (emoji fallback — replace with SVG if desired)
