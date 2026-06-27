@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APPETIZER — Menu</title>
+  <meta name="description" content="Digital menu for APPETIZER restaurant" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+</head>
+<body dir="rtl">
+
+  <!-- ── Header ── -->
+  <header class="header">
+  <div class="header-top">
+
+    <!-- Logo -->
+    <div class="logo-wrap">
+      <div class="logo-circle">
+        <img src="images/logo.webp" alt="APPETIZER Logo" />
+      </div>
+    </div>
+
+    <!-- Title -->
+    <div class="title-box">
+      <div class="title-decor">
+        <span></span>
+ <span class="decor-icon">
+  <svg viewBox="0 0 100 100" aria-hidden="true">
+    <path d="M31 8h6v30c0 8-5 14-11 17v37h-7V55C13 52 8 46 8 38V8h6v30h4V8h5v30h4V8h4v30h4V8z"/>
+    <path d="M65 8c16 13 24 35 15 50-3 5-7 8-11 10v24h-8V68c-9-4-15-11-17-20C42 32 51 15 65 8z"/>
+  </svg>
+</span>
+        <span></span>
+      </div>
+
+      <h1 class="main-title">
+        APPET<span>IZER</span>
+      </h1>
+
+      <div class="bottom-decor">
+  <span></span>
+  <i></i>
+  <span></span>
+</div>
+
+    <!-- Language Switcher -->
+    <div class="lang-switcher" role="group" aria-label="Language">
+      <button class="lang-btn active" data-lang="ar">عربي</button>
+      <button class="lang-btn" data-lang="fr">Français</button>
+      <button class="lang-btn" data-lang="en">English</button>
+    </div>
+
+  </div>
+</header>
+
+  <!-- ── Main ── -->
+  <main class="main">
+    <div class="gold-divider"></div>
+    <div class="categories-grid" id="categories-grid" role="list">
+      <!-- Rendered by script.js -->
+    </div>
+    <div class="gold-divider" style="margin-top:24px"></div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 APPETIZER</p>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
