@@ -163,90 +163,124 @@ const products = [
 
   // ─── DESSERTS / تحلية ────────────────────────────────────────────────────────
   {
-    id: 10,
-    category: "desserts",
-    image: "chocolate-cake.webp",
-    price: 40,
-    ar: { name: "كيك الشوكولاتة", description: "كيك شوكولاتة داكنة مع صلصة الشوكولاتة الساخنة" },
-    fr: { name: "Gâteau chocolat", description: "Gâteau au chocolat noir avec sauce chocolat chaude" },
-    en: { name: "Chocolate Cake", description: "Rich dark chocolate cake with hot chocolate sauce" }
-  },
-  {
-    id: 11,
-    category: "desserts",
-    image: "tiramisu.webp",
-    price: 45,
-    ar: { name: "تيراميسو", description: "تيراميسو إيطالي كلاسيكي بالقهوة والقشدة" },
-    fr: { name: "Tiramisu", description: "Tiramisu italien classique au café et à la crème mascarpone" },
-    en: { name: "Tiramisu", description: "Classic Italian tiramisu with coffee and mascarpone cream" }
-  },
-  {
-    id: 12,
-    category: "desserts",
-    image: "cheesecake.webp",
-    price: 42,
-    ar: { name: "تشيز كيك", description: "تشيز كيك كريمي بالفراولة الطازجة" },
-    fr: { name: "Cheesecake", description: "Cheesecake crémeux aux fraises fraîches" },
-    en: { name: "Cheesecake", description: "Creamy cheesecake topped with fresh strawberries" }
-  },
+  id: 1,
+  category: "desserts",
+  image: "cream-puff.webp",
+  price: 200,
+  ar: { name: "كريمة باف", description: "عجينة خفيفة محشوة بكريمة الفانيليا الطازجة" },
+  fr: { name: "Crème Puff", description: "Pâte légère garnie d'une crème pâtissière onctueuse" },
+  en: { name: "Cream Puff", description: "Light pastry filled with smooth vanilla cream" }
+},
+
+{
+  id: 2,
+  category: "desserts",
+  image: "brownies.webp",
+  price: 200,
+  ar: { name: "براونيز", description: "كيك شوكولاتة غني بقوام طري ولذيذ" },
+  fr: { name: "Brownies", description: "Gâteau au chocolat fondant et gourmand" },
+  en: { name: "Brownies", description: "Rich and fudgy chocolate brownie" }
+},
+
+{
+  id: 3,
+  category: "desserts",
+  image: "flan-caramel.webp",
+  price: 180,
+  ar: { name: "فلان كراميل", description: "فلان كريمي مغطى بصلصة الكراميل" },
+  fr: { name: "Flan Caramel", description: "Flan crémeux nappé d'un caramel fondant" },
+  en: { name: "Caramel Flan", description: "Creamy custard topped with smooth caramel sauce" }
+},
+
+{
+  id: 4,
+  category: "desserts",
+  image: "crepe-nutella.webp",
+  price: 120,
+  ar: { name: "كريب نوتيلا", description: "كريب طازج محشو بنوتيلا ويقدم ساخناً" },
+  fr: { name: "Crêpe Nutella", description: "Crêpe fraîche garnie de Nutella, servie chaude" },
+  en: { name: "Nutella Crepe", description: "Fresh crepe filled with Nutella and served warm" }
+},
 
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
-  {
-    id: 13,
-    category: "breakfast",
-    image: "full-breakfast.webp",
-    price: 70,
-    ar: { name: "فطور كامل", description: "بيض مقلي، خبز مشوي، جبن، زيتون وعصير برتقال" },
-    fr: { name: "Petit déjeuner complet", description: "Œufs frits, pain grillé, fromage, olives et jus d'orange" },
-    en: { name: "Full Breakfast", description: "Fried eggs, toast, cheese, olives and orange juice" }
+{
+  id: 8,
+  category: "breakfast",
+  image: "french-breakfast.webp",
+  price: 400,
+  ar: {
+    name: "فطور فرنسي",
+    description: "سلة معجنات فرنسية، مشروب ساخن، عصير برتقال، مياه معدنية، سلطة فواكه، أومليت، وبروفيترول"
   },
-  {
-    id: 14,
-    category: "breakfast",
-    image: "pancakes.webp",
-    price: 45,
-    ar: { name: "بانكيك بالعسل", description: "بانكيك طري بالعسل الطبيعي والزبدة" },
-    fr: { name: "Pancakes au miel", description: "Pancakes moelleux au miel naturel et beurre" },
-    en: { name: "Honey Pancakes", description: "Fluffy pancakes with natural honey and butter" }
+  fr: {
+    name: "Petit Déjeuner Français",
+    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale, salade de fruits, omelette et profiterole"
   },
-  {
-    id: 15,
-    category: "breakfast",
-    image: "avocado-toast.webp",
-    price: 55,
-    ar: { name: "توست أفوكادو", description: "خبز مشوي بالأفوكادو الطازج والبيض المسلوق والطماطم" },
-    fr: { name: "Toast avocat", description: "Pain grillé à l'avocat frais, œuf poché et tomates" },
-    en: { name: "Avocado Toast", description: "Toasted bread with fresh avocado, poached egg and tomatoes" }
+  en: {
+    name: "French Breakfast",
+    description: "French pastry basket, hot drink, orange juice, mineral water, fruit salad, omelette and profiterole"
+  }
+},
+
+{
+  id: 9,
+  category: "breakfast",
+  image: "brunch.webp",
+  price: 430,
+  ar: {
+    name: "برانش",
+    description: "سلة معجنات فرنسية، مشروب ساخن، عصير برتقال، مياه معدنية، سلطة فواكه، أومليت، هوت دوغ، ميني ساندويتش دجاج، جبن جودة مع لحم هام، تشكيلة حلويات، زبدة، مربى وجبن"
   },
+  fr: {
+    name: "Brunch",
+    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale, salade de fruits, omelette, hot dog, mini sandwich poulet, gouda et jambon, trio de desserts, beurre, confiture et fromage"
+  },
+  en: {
+    name: "Brunch",
+    description: "French pastry basket, hot drink, orange juice, mineral water, fruit salad, omelette, hot dog, mini chicken sandwich, Gouda cheese with ham, dessert trio, butter, jam and cheese"
+  }
+},
 
   // ─── SHISHA / شيشة ───────────────────────────────────────────────────────────
-  {
-    id: 16,
-    category: "shisha",
-    image: "shisha-mint.webp",
-    price: 80,
-    ar: { name: "شيشة نعناع", description: "شيشة فاخرة بنكهة النعناع المنعش" },
-    fr: { name: "Chicha menthe", description: "Chicha premium à la menthe fraîche et rafraîchissante" },
-    en: { name: "Mint Shisha", description: "Premium shisha with fresh and refreshing mint flavor" }
-  },
-  {
-    id: 17,
-    category: "shisha",
-    image:" grape-shisha.webp",
-    price: 80,
-    ar: { name: "شيشة عنب", description: "شيشة فاخرة بنكهة العنب الحلو" },
-    fr: { name: "Chicha raisin", description: "Chicha premium à la saveur de raisin doux" },
-    en: { name: "Grape Shisha", description: "Premium shisha with sweet grape flavor" }
-  },
-  {
-    id: 18,
-    category: "shisha",
-    image: "shisha-mixed.webp",
-    price: 90,
-    ar: { name: "شيشة مكسد", description: "مزيج خاص من نكهات متعددة بتوصية الشيف" },
-    fr: { name: "Chicha mixte", description: "Mélange spécial de plusieurs saveurs, recommandé par le chef" },
-    en: { name: "Mixed Shisha", description: "Special blend of multiple flavors, chef's recommendation" }
-  }
+ {
+  id: 1,
+  category: "shisha",
+  image: "shisha-hawaii.webp",
+  price: 300,
+  ar: { name: "شيشة Hawaii", description: "نكهة استوائية منعشة بمزيج فواكه هاواي" },
+  fr: { name: "Chicha Hawaii", description: "Saveur tropicale inspirée des fruits d'Hawaï" },
+  en: { name: "Hawaii Shisha", description: "Premium tropical Hawaiian fruit flavor" }
+},
+
+{
+  id: 2,
+  category: "shisha",
+  image: "shisha-love.webp",
+  price: 300,
+  ar: { name: "شيشة Love", description: "مزيج فواكه حلوة ومنعشة بطعم مميز" },
+  fr: { name: "Chicha Love", description: "Mélange de saveurs fruitées douces et rafraîchissantes" },
+  en: { name: "Love Shisha", description: "Premium sweet and refreshing fruit blend" }
+},
+
+{
+  id: 3,
+  category: "shisha",
+  image: "shisha-nana.webp",
+  price: 300,
+  ar: { name: "شيشة Nana", description: "نكهة النعناع المنعشة بطعم نقي ومميز" },
+  fr: { name: "Chicha Nana", description: "Chicha premium à la menthe fraîche" },
+  en: { name: "Nana Shisha", description: "Premium fresh mint flavor" }
+},
+
+{
+  id: 4,
+  category: "shisha",
+  image: "shisha-miamor.webp",
+  price: 300,
+  ar: { name: "شيشة Mi Amor", description: "مزيج فاخر من النكهات بطابع حلو ومنعش" },
+  fr: { name: "Chicha Mi Amor", description: "Mélange premium aux saveurs douces et raffinées" },
+  en: { name: "Mi Amor Shisha", description: "Premium sweet and refined flavor blend" }
+},
 
 ];
  
