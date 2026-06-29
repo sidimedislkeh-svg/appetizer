@@ -27,91 +27,139 @@ const CURRENCY = "MRU"; // Change to your currency symbol e.g. "DH", "SAR", "$"
 const products = [
 
   // ─── DRINKS / مشروبات ───────────────────────────────────────────────────────
-  {
-    id: 1,
-    category: "drinks",
-    image: "espresso.webp",
-    price: 18,
-    ar: { name: "إسبريسو", description: "قهوة إسبريسو إيطالية مركزة وقوية" },
-    fr: { name: "Espresso", description: "Café espresso italien intense et corsé" },
-    en: { name: "Espresso", description: "Intense Italian-style espresso shot" }
-  },
-  {
-    id: 2,
-    category: "drinks",
-    image: "latte.webp",
-    price: 28,
-    ar: { name: "لاتيه", description: "قهوة ناعمة مع حليب مبخر وقشدة" },
-    fr: { name: "Latte", description: "Café doux avec lait vapeur et mousse" },
-    en: { name: "Latte", description: "Smooth espresso with steamed milk and foam" }
-  },
-  {
-    id: 3,
-    category: "drinks",
-    image: "orange-juice.webp",
-    price: 25,
-    ar: { name: "عصير برتقال طازج", description: "عصير برتقال طبيعي 100% طازج" },
-    fr: { name: "Jus d'orange frais", description: "Jus d'orange 100% naturel pressé" },
-    en: { name: "Fresh Orange Juice", description: "100% natural freshly squeezed orange juice" }
-  },
+  // ─── FRESH JUICES / عصائر طبيعية ───────────────────────────
+
+{
+  id: 1,
+  category: "drinks",
+  image: "kiwi.webp",
+  price: 180,
+  ar: { name: "عصير كيوي", description: "عصير كيوي طبيعي ومنعش" },
+  fr: { name: "Jus Kiwi", description: "Jus de kiwi naturel et rafraîchissant" },
+  en: { name: "Kiwi Juice", description: "Fresh natural kiwi juice" }
+},
+
+{
+  id: 2,
+  category: "drinks",
+  image: "strawberry.webp",
+  price: 150,
+  ar: { name: "عصير فراولة", description: "عصير فراولة طبيعي ومنعش" },
+  fr: { name: "Jus Fraise", description: "Jus de fraise naturel et rafraîchissant" },
+  en: { name: "Strawberry Juice", description: "Fresh natural strawberry juice" }
+},
+
+{
+  id: 3,
+  category: "drinks",
+  image: "pineapple.webp",
+  price: 180,
+  ar: { name: "عصير أناناس", description: "عصير أناناس طبيعي ومنعش" },
+  fr: { name: "Jus Ananas", description: "Jus d'ananas naturel et rafraîchissant" },
+  en: { name: "Pineapple Juice", description: "Fresh natural pineapple juice" }
+},
+
+{
+  id: 4,
+  category: "drinks",
+  image: "avocado.webp",
+  price: 180,
+  ar: { name: "عصير أفوكادو", description: "عصير أفوكادو طبيعي وكريمي" },
+  fr: { name: "Jus Avocat", description: "Jus d'avocat naturel et crémeux" },
+  en: { name: "Avocado Juice", description: "Natural creamy avocado juice" }
+},
+
+{
+  id: 5,
+  category: "drinks",
+  image: "appetizer.webp",
+  price: 200,
+  ar: { name: "عصير Appetizer", description: "مزيج فواكه طبيعي خاص بالمطعم" },
+  fr: { name: "Jus Appetizer", description: "Mélange de fruits spécial de la maison" },
+  en: { name: "Appetizer Special Juice", description: "House special fresh fruit blend" }
+},
 
   // ─── SNACKS / سناك ──────────────────────────────────────────────────────────
-  {
-    id: 4,
-    category: "snacks",
-    image: "burger.webp",
-    price: 65,
-    ar: { name: "برغر كلاسيك", description: "برغر لحم بقري مع جبن وخس وطماطم وصلصة خاصة" },
-    fr: { name: "Burger Classic", description: "Burger bœuf avec fromage, salade, tomate et sauce maison" },
-    en: { name: "Classic Burger", description: "Beef burger with cheese, lettuce, tomato and house sauce" }
-  },
-  {
-    id: 5,
-    category: "snacks",
-    image: "fries.webp",
-    price: 25,
-    ar: { name: "بطاطس مقلية", description: "بطاطس مقرمشة مع صلصة الكاتشب" },
-    fr: { name: "Frites croustillantes", description: "Frites dorées croustillantes avec ketchup" },
-    en: { name: "Crispy Fries", description: "Golden crispy fries served with ketchup" }
-  },
-  {
-    id: 6,
-    category: "snacks",
-    image: "club-sandwich.webp",
-    price: 55,
-    ar: { name: "كلوب ساندويش", description: "ساندويش ثلاثي بالدجاج والجبن والخضروات" },
-    fr: { name: "Club Sandwich", description: "Sandwich triple au poulet, fromage et légumes frais" },
-    en: { name: "Club Sandwich", description: "Triple-decker sandwich with chicken, cheese and fresh veggies" }
-  },
+ {
+  id: 1,
+  category: "snacks",
+  image: "cheeseburger.webp",
+  price: 200,
+  ar: { name: "تشيز برغر", description: "برغر لحم بقري مع جبن شيدر وخس وطماطم وصلصة خاصة" },
+  fr: { name: "Cheeseburger", description: "Burger de bœuf avec cheddar, salade, tomate et sauce maison" },
+  en: { name: "Cheeseburger", description: "Beef burger with cheddar cheese, lettuce, tomato and house sauce" }
+},
+
+{
+  id: 2,
+  category: "snacks",
+  image: "meat-sandwich.webp",
+  price: 180,
+  ar: { name: "ساندويتش لحم", description: "شرائح لحم مشوية مع الخس والطماطم وصلصة خاصة" },
+  fr: { name: "Sandwich Viande", description: "Sandwich garni de viande grillée, salade, tomate et sauce maison" },
+  en: { name: "Meat Sandwich", description: "Grilled meat sandwich with lettuce, tomato and house sauce" }
+},
+
+{
+  id: 3,
+  category: "snacks",
+  image: "pizza-margherita.webp",
+  price: 200,
+  ar: { name: "بيتزا مارغريتا", description: "بيتزا بصلصة الطماطم وجبن الموزاريلا والأوريغانو" },
+  fr: { name: "Pizza Margherita", description: "Pizza à la sauce tomate, mozzarella et origan" },
+  en: { name: "Margherita Pizza", description: "Classic pizza with tomato sauce, mozzarella and oregano" }
+},
+
+{
+  id: 4,
+  category: "snacks",
+  image: "pizza-tuna.webp",
+  price: 250,
+  ar: { name: "بيتزا تونة", description: "بيتزا بالتونة وجبن الموزاريلا وصلصة الطماطم" },
+  fr: { name: "Pizza Thon", description: "Pizza au thon, mozzarella et sauce tomate" },
+  en: { name: "Tuna Pizza", description: "Pizza topped with tuna, mozzarella and tomato sauce" }
+},
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
-  {
-    id: 7,
-    category: "dishes",
-    image: "salmon.webp",
-    price: 120,
-    ar: { name: "سلمون مشوي", description: "سلمون مشوي مع خضروات موسمية وصلصة الليمون" },
-    fr: { name: "Saumon grillé", description: "Saumon grillé avec légumes de saison et sauce citron" },
-    en: { name: "Grilled Salmon", description: "Grilled salmon fillet with seasonal vegetables and lemon sauce" }
-  },
-  {
-    id: 8,
-    category: "dishes",
-    image: "pasta.webp",
-    price: 75,
-    ar: { name: "باستا كريمية", description: "باستا بالكريمة والدجاج والفطر والأعشاب الإيطالية" },
-    fr: { name: "Pasta crémeuse", description: "Pasta à la crème avec poulet, champignons et herbes italiennes" },
-    en: { name: "Creamy Pasta", description: "Pasta in cream sauce with chicken, mushrooms and Italian herbs" }
-  },
-  {
-    id: 9,
-    category: "dishes",
-    image: "steak.webp",
-    price: 150,
-    ar: { name: "ستيك لحم", description: "ستيك بقري مع بطاطس وصلصة الفلفل الأسود" },
-    fr: { name: "Steak de bœuf", description: "Steak de bœuf avec pommes de terre et sauce poivre noir" },
-    en: { name: "Beef Steak", description: "Premium beef steak with potatoes and black pepper sauce" }
-  },
+ {
+  id: 1,
+  category: "dishes",
+  image: "sole.webp",
+  price: 480,
+  ar: { name: "سمك سول مونيير", description: "فيليه سمك سول مشوي مع صلصة المونيير والزبدة والليمون" },
+  fr: { name: "Sole Meunière", description: "Filet de sole préparé à la sauce meunière au beurre et citron" },
+  en: { name: "Sole Meunière", description: "Sole fillet served with classic butter and lemon meunière sauce" }
+},
+
+{
+  id: 2,
+  category: "dishes",
+  image: "seafood-mix.webp",
+  price: 650,
+  ar: { name: "مشكل فواكه البحر", description: "تشكيلة من المأكولات البحرية الطازجة المشوية" },
+  fr: { name: "Fruits de Mer Mix", description: "Assortiment de fruits de mer frais grillés" },
+  en: { name: "Mixed Seafood", description: "Selection of fresh grilled seafood" }
+},
+
+{
+  id: 3,
+  category: "dishes",
+  image: "fillet-grille.webp",
+  price: 600,
+  ar: { name: "فيليه مشوي", description: "فيليه مشوي يقدم مع خضروات موسمية وصلصة خاصة" },
+  fr: { name: "Filet Grillé", description: "Filet grillé accompagné de légumes de saison et sauce maison" },
+  en: { name: "Grilled Fillet", description: "Grilled fillet served with seasonal vegetables and house sauce" }
+},
+
+{
+  id: 4,
+  category: "dishes",
+  image: "lamb-chops.webp",
+  price: 640,
+  ar: { name: "ريش لحم الضأن", description: "ريش ضأن مشوية تقدم مع البطاطس والخضروات" },
+  fr: { name: "Côtelette d’Agneau", description: "Côtelettes d'agneau grillées servies avec pommes de terre et légumes" },
+  en: { name: "Lamb Chops", description: "Grilled lamb chops served with potatoes and seasonal vegetables" }
+},
 
   // ─── DESSERTS / تحلية ────────────────────────────────────────────────────────
   {
@@ -184,7 +232,7 @@ const products = [
   {
     id: 17,
     category: "shisha",
-    image: "shisha-grape.webp",
+    image:" grape-shisha.webp",
     price: 80,
     ar: { name: "شيشة عنب", description: "شيشة فاخرة بنكهة العنب الحلو" },
     fr: { name: "Chicha raisin", description: "Chicha premium à la saveur de raisin doux" },
@@ -201,3 +249,4 @@ const products = [
   }
 
 ];
+ 
