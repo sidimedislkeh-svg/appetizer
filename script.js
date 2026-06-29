@@ -201,7 +201,7 @@ function renderProducts(container, category) {
   container.innerHTML = filtered.map(p => {
     const info  = p[currentLang] || p.en;
     const price = `${p.price} ${CURRENCY}`;
-    const img   = p.image ? `images/${p.image}` : "";
+    const img   = p.image ? p.image : "";
 
     return `
       <div class="product-card">
