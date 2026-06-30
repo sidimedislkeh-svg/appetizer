@@ -174,156 +174,7 @@ const products = [
   fr: { name: "Pizza Thon", description: "Pizza au thon, mozzarella et sauce tomate" },
   en: { name: "Tuna Pizza", description: "Pizza topped with tuna, mozzarella and tomato sauce" }
 },
-{
-  id: 5,
-  category: "snacks",
-  image: "spaghetti-bolognese.webp",
-  price: 350,
-  ar: {
-    name: "سباغيتي بولونيز",
-    description: "سباغيتي إيطالية بصلصة البولونيز الغنية باللحم البقري والطماطم وجبن البارميزان"
-  },
-  fr: {
-    name: "Spaghetti Bolognaise",
-    description: "Spaghetti italien avec sauce bolognaise au bœuf, tomates et parmesan"
-  },
-  en: {
-    name: "Spaghetti Bolognese",
-    description: "Italian spaghetti with rich beef bolognese sauce, tomatoes and Parmesan cheese"
-  }
-},
 
-{
-  id: 6,
-  category: "snacks",
-  image: "fettuccine-alfredo.webp",
-  price: 380,
-  ar: {
-    name: "فيتوتشيني ألفريدو",
-    description: "فيتوتشيني بصلصة ألفريدو الكريمية مع صدر دجاج مشوي وجبن البارميزان"
-  },
-  fr: {
-    name: "Fettuccine Alfredo",
-    description: "Fettuccine à la sauce Alfredo crémeuse avec poulet grillé et parmesan"
-  },
-  en: {
-    name: "Fettuccine Alfredo",
-    description: "Fettuccine in creamy Alfredo sauce with grilled chicken and Parmesan cheese"
-  }
-},
-
-{
-  id: 7,
-  category: "snacks",
-  image: "penne-arrabbiata.webp",
-  price: 300,
-  ar: {
-    name: "بيني أرابياتا",
-    description: "مكرونة بيني بصلصة الطماطم الحارة والأعشاب الإيطالية وجبن البارميزان"
-  },
-  fr: {
-    name: "Penne Arrabbiata",
-    description: "Penne à la sauce tomate épicée, herbes italiennes et parmesan"
-  },
-  en: {
-    name: "Penne Arrabbiata",
-    description: "Penne pasta with spicy tomato sauce, Italian herbs and Parmesan cheese"
-  }
-},
-
-{
-  id: 8,
-  category: "snacks",
-  image: "spaghetti-seafood.webp",
-  price: 550,
-  ar: {
-    name: "سباغيتي ثمار البحر",
-    description: "سباغيتي مع الروبيان وبلح البحر والكالاماري بصلصة الطماطم الإيطالية"
-  },
-  fr: {
-    name: "Spaghetti aux Fruits de Mer",
-    description: "Spaghetti aux crevettes, moules et calamars dans une sauce tomate italienne"
-  },
-  en: {
-    name: "Seafood Spaghetti",
-    description: "Spaghetti with shrimp, mussels and calamari in Italian tomato sauce"
-  }
-},
-{
-  id: 9,
-  category: "snacks",
-  image: "fettuccine-shrimp.webp",
-  price: 400,
-  ar: {
-    name: "فيتوتشيني بالجمبري",
-    description: "فيتوتشيني بصلصة كريمية غنية مع جمبري طازج وجبن البارميزان"
-  },
-  fr: {
-    name: "Fettuccine aux Crevettes",
-    description: "Fettuccine à la sauce crémeuse avec crevettes fraîches et parmesan"
-  },
-  en: {
-    name: "Shrimp Fettuccine",
-    description: "Creamy fettuccine with fresh shrimp and Parmesan cheese"
-  }
-},
-
-{
-  id: 10,
-  category: "snacks",
-  image: "penne-mushroom-cream.webp",
-  price: 350,
-  ar: {
-    name: "بيني بالفطر والكريمة",
-    description: "مكرونة بيني بصلصة الكريمة والفطر الطازج مع جبن البارميزان"
-  },
-  fr: {
-    name: "Penne aux Champignons et Crème",
-    description: "Penne à la crème avec champignons frais et parmesan"
-  },
-  en: {
-    name: "Penne with Mushrooms & Cream",
-    description: "Penne pasta in creamy mushroom sauce with Parmesan cheese"
-  }
-},
-
-{
-  id: 11,
-  category: "snacks",
-  image: "lasagna-bolognese.webp",
-  price: 400,
-  ar: {
-    name: "لازانيا بولونيز",
-    description: "طبقات لازانيا مخبوزة مع صلصة البولونيز ولحم بقري وجبن موزاريلا"
-  },
-  fr: {
-    name: "Lasagne Bolognaise",
-    description: "Lasagnes gratinées avec sauce bolognaise, bœuf haché et mozzarella"
-  },
-  en: {
-    name: "Lasagna Bolognese",
-    description: "Baked lasagna with beef bolognese sauce and mozzarella cheese"
-  }
-},
-
-{
-  id: 12,
-  category: "snacks",
-  image: "spaghetti-aglio-olio.webp",
-  price: 300,
-  ar: {
-    name: "سباغيتي أجليو إي أوليو",
-    description: "سباغيتي بزيت الزيتون والثوم والأعشاب الإيطالية مع رقائق الفلفل الحار"
-  },
-  fr: {
-    name: "Spaghetti Aglio e Olio",
-    description: "Spaghetti à l'huile d'olive, ail, herbes italiennes et piment"
-  },
-  en: {
-    name: "Spaghetti Aglio e Olio",
-    description: "Spaghetti with olive oil, garlic, Italian herbs and chili flakes"
-  }
-},
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
  {
@@ -364,6 +215,156 @@ const products = [
   ar: { name: "ريش لحم الضأن", description: "ريش ضأن مشوية تقدم مع البطاطس والخضروات" },
   fr: { name: "Côtelette d’Agneau", description: "Côtelettes d'agneau grillées servies avec pommes de terre et légumes" },
   en: { name: "Lamb Chops", description: "Grilled lamb chops served with potatoes and seasonal vegetables" }
+},
+{
+  id: 5,
+  category: "dishes",
+  image: "spaghetti-bolognese.webp",
+  price: 350,
+  ar: {
+    name: "سباغيتي بولونيز",
+    description: "سباغيتي إيطالية بصلصة البولونيز الغنية باللحم البقري والطماطم وجبن البارميزان"
+  },
+  fr: {
+    name: "Spaghetti Bolognaise",
+    description: "Spaghetti italien avec sauce bolognaise au bœuf, tomates et parmesan"
+  },
+  en: {
+    name: "Spaghetti Bolognese",
+    description: "Italian spaghetti with rich beef bolognese sauce, tomatoes and Parmesan cheese"
+  }
+},
+
+{
+  id: 6,
+  category: "dishes",
+  image: "fettuccine-alfredo.webp",
+  price: 380,
+  ar: {
+    name: "فيتوتشيني ألفريدو",
+    description: "فيتوتشيني بصلصة ألفريدو الكريمية مع صدر دجاج مشوي وجبن البارميزان"
+  },
+  fr: {
+    name: "Fettuccine Alfredo",
+    description: "Fettuccine à la sauce Alfredo crémeuse avec poulet grillé et parmesan"
+  },
+  en: {
+    name: "Fettuccine Alfredo",
+    description: "Fettuccine in creamy Alfredo sauce with grilled chicken and Parmesan cheese"
+  }
+},
+
+{
+  id: 6,
+  category: "dishes",
+  image: "penne-arrabbiata.webp",
+  price: 300,
+  ar: {
+    name: "بيني أرابياتا",
+    description: "مكرونة بيني بصلصة الطماطم الحارة والأعشاب الإيطالية وجبن البارميزان"
+  },
+  fr: {
+    name: "Penne Arrabbiata",
+    description: "Penne à la sauce tomate épicée, herbes italiennes et parmesan"
+  },
+  en: {
+    name: "Penne Arrabbiata",
+    description: "Penne pasta with spicy tomato sauce, Italian herbs and Parmesan cheese"
+  }
+},
+
+{
+  id: 7,
+  category: "dishes",
+  image: "spaghetti-seafood.webp",
+  price: 550,
+  ar: {
+    name: "سباغيتي ثمار البحر",
+    description: "سباغيتي مع الروبيان وبلح البحر والكالاماري بصلصة الطماطم الإيطالية"
+  },
+  fr: {
+    name: "Spaghetti aux Fruits de Mer",
+    description: "Spaghetti aux crevettes, moules et calamars dans une sauce tomate italienne"
+  },
+  en: {
+    name: "Seafood Spaghetti",
+    description: "Spaghetti with shrimp, mussels and calamari in Italian tomato sauce"
+  }
+},
+{
+  id: 8,
+  category: "dishes",
+  image: "fettuccine-shrimp.webp",
+  price: 400,
+  ar: {
+    name: "فيتوتشيني بالجمبري",
+    description: "فيتوتشيني بصلصة كريمية غنية مع جمبري طازج وجبن البارميزان"
+  },
+  fr: {
+    name: "Fettuccine aux Crevettes",
+    description: "Fettuccine à la sauce crémeuse avec crevettes fraîches et parmesan"
+  },
+  en: {
+    name: "Shrimp Fettuccine",
+    description: "Creamy fettuccine with fresh shrimp and Parmesan cheese"
+  }
+},
+
+{
+  id: 9,
+  category: "dishes",
+  image: "penne-mushroom-cream.webp",
+  price: 350,
+  ar: {
+    name: "بيني بالفطر والكريمة",
+    description: "مكرونة بيني بصلصة الكريمة والفطر الطازج مع جبن البارميزان"
+  },
+  fr: {
+    name: "Penne aux Champignons et Crème",
+    description: "Penne à la crème avec champignons frais et parmesan"
+  },
+  en: {
+    name: "Penne with Mushrooms & Cream",
+    description: "Penne pasta in creamy mushroom sauce with Parmesan cheese"
+  }
+},
+
+{
+  id: 10,
+  category: "dishes",
+  image: "lasagna-bolognese.webp",
+  price: 400,
+  ar: {
+    name: "لازانيا بولونيز",
+    description: "طبقات لازانيا مخبوزة مع صلصة البولونيز ولحم بقري وجبن موزاريلا"
+  },
+  fr: {
+    name: "Lasagne Bolognaise",
+    description: "Lasagnes gratinées avec sauce bolognaise, bœuf haché et mozzarella"
+  },
+  en: {
+    name: "Lasagna Bolognese",
+    description: "Baked lasagna with beef bolognese sauce and mozzarella cheese"
+  }
+},
+
+{
+  id: 11,
+  category: "dishes",
+  image: "spaghetti-aglio-olio.webp",
+  price: 300,
+  ar: {
+    name: "سباغيتي أجليو إي أوليو",
+    description: "سباغيتي بزيت الزيتون والثوم والأعشاب الإيطالية مع رقائق الفلفل الحار"
+  },
+  fr: {
+    name: "Spaghetti Aglio e Olio",
+    description: "Spaghetti à l'huile d'olive, ail, herbes italiennes et piment"
+  },
+  en: {
+    name: "Spaghetti Aglio e Olio",
+    description: "Spaghetti with olive oil, garlic, Italian herbs and chili flakes"
+  }
 },
 
   // ─── DESSERTS / تحلية ────────────────────────────────────────────────────────
@@ -655,4 +656,3 @@ const products = [
 },
 
 ];
- 
