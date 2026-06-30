@@ -78,6 +78,61 @@ const products = [
   fr: { name: "Jus Appetizer", description: "Mélange de fruits spécial de la maison" },
   en: { name: "Appetizer Special Juice", description: "House special fresh fruit blend" }
 },
+{
+  id: 6,
+  category: "drinks",
+  image: "orange-juice.webp",
+  price: 120,
+  ar: {
+    name: "عصير برتقال طازج",
+    description: "عصير برتقال طبيعي 100٪ محضر من برتقال طازج"
+  },
+  fr: {
+    name: "Jus d'Orange Frais",
+    description: "Jus d'orange 100 % naturel préparé avec des oranges fraîches"
+  },
+  en: {
+    name: "Fresh Orange Juice",
+    description: "100% fresh orange juice made from freshly squeezed oranges"
+  }
+},
+{
+  id: 8,
+  category: "drinks",
+  image: "mint-mojito.webp",
+  price: 190,
+  ar: {
+    name: "موخيتو نعناع",
+    description: "موخيتو منعش بالنعناع الطازج والليمون مع الثلج والمياه الغازية"
+  },
+  fr: {
+    name: "Mojito Menthe",
+    description: "Mojito rafraîchissant à la menthe fraîche, citron vert, glace et eau gazeuse"
+  },
+  en: {
+    name: "Mint Mojito",
+    description: "Refreshing mojito with fresh mint, lime, ice and sparkling water"
+  }
+},
+
+{
+  id: 7,
+  category: "drinks",
+  image: "cappuccino.webp",
+  price: 100,
+  ar: {
+    name: "قهوة كابتشينو",
+    description: "إسبريسو مع حليب مبخر ورغوة حليب كريمية"
+  },
+  fr: {
+    name: "Cappuccino",
+    description: "Espresso avec lait chaud et mousse de lait onctueuse"
+  },
+  en: {
+    name: "Cappuccino",
+    description: "Espresso with steamed milk and creamy milk foam"
+  }
+},
 
   // ─── SNACKS / سناك ──────────────────────────────────────────────────────────
  {
@@ -118,6 +173,156 @@ const products = [
   ar: { name: "بيتزا تونة", description: "بيتزا بالتونة وجبن الموزاريلا وصلصة الطماطم" },
   fr: { name: "Pizza Thon", description: "Pizza au thon, mozzarella et sauce tomate" },
   en: { name: "Tuna Pizza", description: "Pizza topped with tuna, mozzarella and tomato sauce" }
+},
+{
+  id: 5,
+  category: "snacks",
+  image: "spaghetti-bolognese.webp",
+  price: 350,
+  ar: {
+    name: "سباغيتي بولونيز",
+    description: "سباغيتي إيطالية بصلصة البولونيز الغنية باللحم البقري والطماطم وجبن البارميزان"
+  },
+  fr: {
+    name: "Spaghetti Bolognaise",
+    description: "Spaghetti italien avec sauce bolognaise au bœuf, tomates et parmesan"
+  },
+  en: {
+    name: "Spaghetti Bolognese",
+    description: "Italian spaghetti with rich beef bolognese sauce, tomatoes and Parmesan cheese"
+  }
+},
+
+{
+  id: 6,
+  category: "snacks",
+  image: "fettuccine-alfredo.webp",
+  price: 380,
+  ar: {
+    name: "فيتوتشيني ألفريدو",
+    description: "فيتوتشيني بصلصة ألفريدو الكريمية مع صدر دجاج مشوي وجبن البارميزان"
+  },
+  fr: {
+    name: "Fettuccine Alfredo",
+    description: "Fettuccine à la sauce Alfredo crémeuse avec poulet grillé et parmesan"
+  },
+  en: {
+    name: "Fettuccine Alfredo",
+    description: "Fettuccine in creamy Alfredo sauce with grilled chicken and Parmesan cheese"
+  }
+},
+
+{
+  id: 7,
+  category: "snacks",
+  image: "penne-arrabbiata.webp",
+  price: 300,
+  ar: {
+    name: "بيني أرابياتا",
+    description: "مكرونة بيني بصلصة الطماطم الحارة والأعشاب الإيطالية وجبن البارميزان"
+  },
+  fr: {
+    name: "Penne Arrabbiata",
+    description: "Penne à la sauce tomate épicée, herbes italiennes et parmesan"
+  },
+  en: {
+    name: "Penne Arrabbiata",
+    description: "Penne pasta with spicy tomato sauce, Italian herbs and Parmesan cheese"
+  }
+},
+
+{
+  id: 8,
+  category: "snacks",
+  image: "spaghetti-seafood.webp",
+  price: 550,
+  ar: {
+    name: "سباغيتي ثمار البحر",
+    description: "سباغيتي مع الروبيان وبلح البحر والكالاماري بصلصة الطماطم الإيطالية"
+  },
+  fr: {
+    name: "Spaghetti aux Fruits de Mer",
+    description: "Spaghetti aux crevettes, moules et calamars dans une sauce tomate italienne"
+  },
+  en: {
+    name: "Seafood Spaghetti",
+    description: "Spaghetti with shrimp, mussels and calamari in Italian tomato sauce"
+  }
+},
+{
+  id: 9,
+  category: "snacks",
+  image: "fettuccine-shrimp.webp",
+  price: 400,
+  ar: {
+    name: "فيتوتشيني بالجمبري",
+    description: "فيتوتشيني بصلصة كريمية غنية مع جمبري طازج وجبن البارميزان"
+  },
+  fr: {
+    name: "Fettuccine aux Crevettes",
+    description: "Fettuccine à la sauce crémeuse avec crevettes fraîches et parmesan"
+  },
+  en: {
+    name: "Shrimp Fettuccine",
+    description: "Creamy fettuccine with fresh shrimp and Parmesan cheese"
+  }
+},
+
+{
+  id: 10,
+  category: "snacks",
+  image: "penne-mushroom-cream.webp",
+  price: 350,
+  ar: {
+    name: "بيني بالفطر والكريمة",
+    description: "مكرونة بيني بصلصة الكريمة والفطر الطازج مع جبن البارميزان"
+  },
+  fr: {
+    name: "Penne aux Champignons et Crème",
+    description: "Penne à la crème avec champignons frais et parmesan"
+  },
+  en: {
+    name: "Penne with Mushrooms & Cream",
+    description: "Penne pasta in creamy mushroom sauce with Parmesan cheese"
+  }
+},
+
+{
+  id: 11,
+  category: "snacks",
+  image: "lasagna-bolognese.webp",
+  price: 400,
+  ar: {
+    name: "لازانيا بولونيز",
+    description: "طبقات لازانيا مخبوزة مع صلصة البولونيز ولحم بقري وجبن موزاريلا"
+  },
+  fr: {
+    name: "Lasagne Bolognaise",
+    description: "Lasagnes gratinées avec sauce bolognaise, bœuf haché et mozzarella"
+  },
+  en: {
+    name: "Lasagna Bolognese",
+    description: "Baked lasagna with beef bolognese sauce and mozzarella cheese"
+  }
+},
+
+{
+  id: 12,
+  category: "snacks",
+  image: "spaghetti-aglio-olio.webp",
+  price: 300,
+  ar: {
+    name: "سباغيتي أجليو إي أوليو",
+    description: "سباغيتي بزيت الزيتون والثوم والأعشاب الإيطالية مع رقائق الفلفل الحار"
+  },
+  fr: {
+    name: "Spaghetti Aglio e Olio",
+    description: "Spaghetti à l'huile d'olive, ail, herbes italiennes et piment"
+  },
+  en: {
+    name: "Spaghetti Aglio e Olio",
+    description: "Spaghetti with olive oil, garlic, Italian herbs and chili flakes"
+  }
 },
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
@@ -204,7 +409,7 @@ const products = [
 
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
 {
-  id: 8,
+  id: 1,
   category: "breakfast",
   image: "french-breakfast.webp",
   price: 400,
@@ -223,7 +428,7 @@ const products = [
 },
 
 {
-  id: 9,
+  id: 2,
   category: "breakfast",
   image: "brunch.webp",
   price: 430,
@@ -240,8 +445,175 @@ const products = [
     description: "French pastry basket, hot drink, orange juice, mineral water, fruit salad, omelette, hot dog, mini chicken sandwich, Gouda cheese with ham, dessert trio, butter, jam and cheese"
   }
 },
+{
+  id: 3,
+  category: "breakfast",
+  image: "avocado-tartine.webp",
+  price: 450,
+  ar: {
+    name: "تارتين بالأفوكادو",
+    description: "خبز محمص مع شرائح أفوكادو طازجة، طماطم كرزية وأعشاب عطرية"
+  },
+  fr: {
+    name: "Tartine à l'avocat",
+    description: "Pain grillé garni d'avocat frais, tomates cerises et herbes aromatiques"
+  },
+  en: {
+    name: "Avocado Tartine",
+    description: "Toasted bread with fresh avocado, cherry tomatoes and aromatic herbs"
+  }
+},
 
-  // ─── SHISHA / شيشة ───────────────────────────────────────────────────────────
+{
+  id: 4,
+  category: "breakfast",
+  image: "tomato-tartine.webp",
+  price: 350,
+  ar: {
+    name: "تارتين بالطماطم",
+    description: "خبز محمص مع شرائح طماطم طازجة وأعشاب عطرية"
+  },
+  fr: {
+    name: "Tartine à la tomate",
+    description: "Pain grillé garni de tomates fraîches et d'herbes aromatiques"
+  },
+  en: {
+    name: "Tomato Tartine",
+    description: "Toasted bread topped with fresh tomatoes and aromatic herbs"
+  }
+},
+
+{
+  id: 5,
+  category: "breakfast",
+  image: "eggs-tartine.webp",
+  price: 350,
+  ar: {
+    name: "تارتين بالبيض",
+    description: "خبز محمص مع بيض مقلي متبل بالأعشاب"
+  },
+  fr: {
+    name: "Tartine aux œufs",
+    description: "Pain grillé garni d'œufs au plat et d'herbes aromatiques"
+  },
+  en: {
+    name: "Egg Tartine",
+    description: "Toasted bread topped with fried eggs and aromatic herbs"
+  }
+},
+
+{
+  id: 6,
+  category: "breakfast",
+  image: "scrambled-eggs-tartine.webp",
+  price: 300,
+  ar: {
+    name: "تارتين بالبيض المخفوق",
+    description: "خبز محمص مع بيض مخفوق كريمي وأعشاب عطرية"
+  },
+  fr: {
+    name: "Tartine aux œufs brouillés",
+    description: "Pain grillé garni d'œufs brouillés crémeux et d'herbes aromatiques"
+  },
+  en: {
+    name: "Scrambled Eggs Tartine",
+    description: "Toasted bread with creamy scrambled eggs and aromatic herbs"
+  }
+},
+
+{
+  id: 7,
+  category: "breakfast",
+  image: "tuna-tartine.webp",
+  price: 450,
+  ar: {
+    name: "تارتين بالتونة",
+    description: "خبز محمص مع تونة، بصل أحمر، طماطم كرزية وأعشاب عطرية"
+  },
+  fr: {
+    name: "Tartine au thon",
+    description: "Pain grillé garni de thon, oignons rouges, tomates cerises et herbes aromatiques"
+  },
+  en: {
+    name: "Tuna Tartine",
+    description: "Toasted bread with tuna, red onion, cherry tomatoes and aromatic herbs"
+  }
+},
+  {
+  id: 8,
+  category: "breakfast",
+  image: "croissant-classique.webp",
+  price: 300,
+  ar: {
+    name: "كرواسون كلاسيكي",
+    description: "كرواسون فرنسي بالزبدة يقدم مع المربى والزبدة، عصير برتقال وقهوة"
+  },
+  fr: {
+    name: "Croissant Classique",
+    description: "Croissant pur beurre servi avec confiture, beurre, jus d'orange et boisson chaude"
+  },
+  en: {
+    name: "Classic Croissant",
+    description: "Butter croissant served with jam, butter, orange juice and hot drink"
+  }
+},
+
+{
+  id: 9,
+  category: "breakfast",
+  image: "croissant-chocolat.webp",
+  price: 250,
+  ar: {
+    name: "كرواسون بالشوكولاتة",
+    description: "كرواسون فرنسي محشو بالشوكولاتة يقدم مع عصير برتقال وقهوة"
+  },
+  fr: {
+    name: "Croissant au Chocolat",
+    description: "Croissant pur beurre au chocolat servi avec jus d'orange et boisson chaude"
+  },
+  en: {
+    name: "Chocolate Croissant",
+    description: "Butter chocolate croissant served with orange juice and hot drink"
+  }
+},
+
+{
+  id: 10,
+  category: "breakfast",
+  image: "pain-raisins.webp",
+  price: 220,
+  ar: {
+    name: "خبز بالزبيب",
+    description: "معجنات فرنسية بالزبيب وكريمة الباتيسيير مع عصير برتقال وقهوة"
+  },
+  fr: {
+    name: "Pain aux Raisins",
+    description: "Pain aux raisins et crème pâtissière servi avec jus d'orange et boisson chaude"
+  },
+  en: {
+    name: "Pain aux Raisins",
+    description: "French raisin pastry with pastry cream, served with orange juice and hot drink"
+  }
+},
+
+{
+  id: 11,
+  category: "breakfast",
+  image: "assortiment-gourmand.webp",
+  price: 300,
+  ar: {
+    name: "تشكيلة معجنات فرنسية",
+    description: "كرواسون بالشوكولاتة، خبز بالزبيب وشرائح خبز بالزبيب، مع عصير برتقال وقهوة"
+  },
+  fr: {
+    name: "Assortiment Gourmand",
+    description: "Croissant au chocolat, pain aux raisins, tranches de pain aux raisins, jus d'orange et boisson chaude"
+  },
+  en: {
+    name: "Gourmet Pastry Selection",
+    description: "Chocolate croissant, raisin pastry, sliced raisin bread, orange juice and hot drink"
+  }
+},// ─── SHISHA / شيشة ───────────────────────────────────────────────────────────
  {
   id: 1,
   category: "shisha",
