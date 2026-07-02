@@ -134,6 +134,62 @@ const products = [
   }
 },
 
+{
+  id: 8,
+  category: "drinks",
+  image: "mocha.webp",
+  price: 150,
+  ar: {
+    name: "قهوة موكا",
+    description: "قهوة موكا كريمية ممزوجة بالإسبريسو والشوكولاتة مع رغوة الحليب"
+  },
+  fr: {
+    name: "Café Mocha",
+    description: "Espresso, chocolat et lait mousseux dans une boisson onctueuse"
+  },
+  en: {
+    name: "Caffè Mocha",
+    description: "Espresso blended with chocolate and steamed milk, topped with milk foam"
+  }
+},
+
+{
+  id: 9,
+  category: "drinks",
+  image: "americano.webp",
+  price: 100,
+  ar: {
+    name: "قهوة أمريكانو",
+    description: "إسبريسو مخفف بالماء الساخن بنكهة قهوة غنية ومتوازنة"
+  },
+  fr: {
+    name: "Café Américain",
+    description: "Espresso allongé à l'eau chaude, au goût riche et équilibré"
+  },
+  en: {
+    name: "Americano",
+    description: "Espresso diluted with hot water for a rich and smooth coffee"
+  }
+},
+
+{
+  id: 10,
+  category: "drinks",
+  image: "espresso.webp",
+  price: 100,
+  ar: {
+    name: "قهوة إسبريسو",
+    description: "جرعة إسبريسو مركزة بنكهة قوية وكريمة ذهبية"
+  },
+  fr: {
+    name: "Espresso",
+    description: "Shot d'espresso intense avec une crema dorée"
+  },
+  en: {
+    name: "Espresso",
+    description: "Rich and intense espresso shot with a golden crema"
+  }
+},
   // ─── SNACKS / سناك ──────────────────────────────────────────────────────────
  {
   id: 1,
@@ -173,6 +229,62 @@ const products = [
   ar: { name: "بيتزا تونة", description: "بيتزا بالتونة وجبن الموزاريلا وصلصة الطماطم" },
   fr: { name: "Pizza Thon", description: "Pizza au thon, mozzarella et sauce tomate" },
   en: { name: "Tuna Pizza", description: "Pizza topped with tuna, mozzarella and tomato sauce" }
+},
+{
+  id: 5,
+  category: "snacks",
+  image: "maqloob.webp",
+  price: 220,
+  ar: {
+    name: "مقلوب",
+    description: "متوفر بالدجاج (220)، اللحم (220)، أو ميكس (240)"
+  },
+  fr: {
+    name: "Maqloob",
+    description: "Disponible au poulet (220), viande (220) ou mixte (240)"
+  },
+  en: {
+    name: "Maqloob",
+    description: "Available with chicken (220), beef (220) or mixed (240)"
+  }
+},
+
+{
+  id: 6,
+  category: "snacks",
+  image: "tacos.webp",
+  price: 170,
+  ar: {
+    name: "تاكوس",
+    description: "متوفر بالدجاج (170)، اللحم (170)، أو كرسبي (200)"
+  },
+  fr: {
+    name: "Tacos",
+    description: "Disponible au poulet (170), viande (170) ou crispy (200)"
+  },
+  en: {
+    name: "Tacos",
+    description: "Available with chicken (170), beef (170) or crispy chicken (200)"
+  }
+},
+
+{
+  id: 7,
+  category: "snacks",
+  image: "baguette-farcie.webp",
+  price: 230,
+  ar: {
+    name: "باغيت محشوة",
+    description: "متوفرة بالدجاج (230)، اللحم (230)، أو ميكس (280)"
+  },
+  fr: {
+    name: "Baguette Farcie",
+    description: "Disponible au poulet (230), viande (230) ou mixte (280)"
+  },
+  en: {
+    name: "Stuffed Baguette",
+    description: "Available with chicken (230), beef (230) or mixed (280)"
+  }
 },
 
 
@@ -364,6 +476,24 @@ const products = [
   en: {
     name: "Spaghetti Aglio e Olio",
     description: "Spaghetti with olive oil, garlic, Italian herbs and chili flakes"
+  }
+},
+{
+  id: 12,
+  category: "dishes",
+  image: "grilled-thiof.webp",
+  price: 650,
+  ar: {
+    name: "التشوف المشوي بالفرن",
+    description: "سمك التشوف المشوي بالفرن، يقدم مع خضروات مشوية وشرائح الليمون"
+  },
+  fr: {
+    name: "Thiof Grillé au Four",
+    description: "Poisson thiof grillé au four, servi avec légumes grillés et citron"
+  },
+  en: {
+    name: "Oven-Grilled Thiof",
+    description: "Fresh oven-grilled thiof served with grilled vegetables and lemon"
   }
 },
 
