@@ -286,6 +286,43 @@ const products = [
     description: "Available with chicken (230), beef (230) or mixed (280)"
   }
 },
+{
+  id: 8,
+  category: "snacks",
+  image: "chicken-pizza.webp",
+  price: 200,
+  ar: {
+    name: "بيتزا دجاج",
+    description: "بيتزا إيطالية بعجينة طازجة مع قطع الدجاج المشوي وجبن الموزاريلا"
+  },
+  fr: {
+    name: "Pizza au Poulet",
+    description: "Pizza italienne garnie de poulet grillé et de mozzarella fondante"
+  },
+  en: {
+    name: "Chicken Pizza",
+    description: "Italian pizza topped with grilled chicken and melted mozzarella cheese"
+  }
+},
+
+{
+  id: 9,
+  category: "snacks",
+  image: "beef-pizza.webp",
+  price: 200,
+  ar: {
+    name: "بيتزا باللحم",
+    description: "بيتزا إيطالية مع لحم بقري متبل، جبن الموزاريلا، والبصل والفلفل"
+  },
+  fr: {
+    name: "Pizza à la Viande",
+    description: "Pizza italienne garnie de bœuf assaisonné, mozzarella, oignons et poivrons"
+  },
+  en: {
+    name: "Beef Pizza",
+    description: "Italian pizza topped with seasoned beef, mozzarella, onions and peppers"
+  }
+},
 
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
@@ -496,6 +533,81 @@ const products = [
     description: "Fresh oven-grilled thiof served with grilled vegetables and lemon"
   }
 },
+{
+  id: 13,
+  category: "dishes",
+  image: "mixed-salad.webp",
+  price: 260,
+  ar: {
+    name: "سلطة مشكلة",
+    description: "مزيج من الخس والخضروات الطازجة الموسمية مع صلصة خفيفة"
+  },
+  fr: {
+    name: "Salade Mixte",
+    description: "Mélange de laitue et légumes frais de saison"
+  },
+  en: {
+    name: "Mixed Salad",
+    description: "Mixed lettuce and fresh seasonal vegetables"
+  }
+},
+
+{
+  id: 41,
+  category: "dishes",
+  image: "caesar-salad.webp",
+  price: 300,
+  ar: {
+    name: "سلطة سيزر",
+    description: "خس روماني مع دجاج مشوي، خبز محمص، جبن بارميزان وصوص السيزر"
+  },
+  fr: {
+    name: "Salade César",
+    description: "Laitue romaine, poulet grillé, croûtons, parmesan et sauce César"
+  },
+  en: {
+    name: "Caesar Salad",
+    description: "Romaine lettuce with grilled chicken, croutons, Parmesan and Caesar dressing"
+  }
+},
+
+{
+  id: 42,
+  category: "dishes",
+  image: "nicoise-salad.webp",
+  price: 280,
+  ar: {
+    name: "سلطة نيسواز",
+    description: "تونة، بيض مسلوق، طماطم، فاصوليا خضراء، زيتون أسود وبطاطس"
+  },
+  fr: {
+    name: "Salade Niçoise",
+    description: "Thon, œuf dur, tomates, haricots verts, olives noires et pommes de terre"
+  },
+  en: {
+    name: "Niçoise Salad",
+    description: "Tuna, boiled egg, tomatoes, green beans, black olives and potatoes"
+  }
+},
+
+{
+  id: 43,
+  category: "dishes",
+  image: "appetizer-salad.webp",
+  price: 320,
+  ar: {
+    name: "سلطة أبتيزر",
+    description: "خس، طماطم كرزية، جبن، جوز، ولحم ديك رومي مع صلصة خاصة"
+  },
+  fr: {
+    name: "Salade Appetizer",
+    description: "Salade verte, tomates cerises, fromage, noix et jambon de dinde"
+  },
+  en: {
+    name: "Appetizer Salad",
+    description: "Mixed greens, cherry tomatoes, cheese, walnuts and turkey ham"
+  }
+},
 
   // ─── DESSERTS / تحلية ────────────────────────────────────────────────────────
   {
@@ -536,6 +648,100 @@ const products = [
   ar: { name: "كريب نوتيلا", description: "كريب طازج محشو بنوتيلا ويقدم ساخناً" },
   fr: { name: "Crêpe Nutella", description: "Crêpe fraîche garnie de Nutella, servie chaude" },
   en: { name: "Nutella Crepe", description: "Fresh crepe filled with Nutella and served warm" }
+},
+{
+  id: 5,
+  category: "desserts",
+  image: "verrine-chocolat.webp",
+  price: 150,
+  ar: {
+    name: "فيرين شوكولاتة",
+    description: "طبقات من الكريمة مع شوكولاتة غنية وبسكويت وقطع شوكولاتة"
+  },
+  fr: {
+    name: "Verrine Chocolat",
+    description: "Verrine crémeuse au chocolat avec biscuit et copeaux de chocolat"
+  },
+  en: {
+    name: "Chocolate Verrine",
+    description: "Creamy chocolate verrine with biscuit and chocolate pieces"
+  }
+},
+
+{
+  id: 6,
+  category: "desserts",
+  image: "verrine-oreo.webp",
+  price: 150,
+  ar: {
+    name: "فيرين أوريو",
+    description: "كريمة ناعمة مع بسكويت أوريو المجروش وطبقات كريمية"
+  },
+  fr: {
+    name: "Verrine Oreo",
+    description: "Crème onctueuse avec biscuits Oreo émiettés"
+  },
+  en: {
+    name: "Oreo Verrine",
+    description: "Creamy verrine with crushed Oreo cookies"
+  }
+},
+
+{
+  id: 7,
+  category: "desserts",
+  image: "verrine-mango.webp",
+  price: 150,
+  ar: {
+    name: "فيرين مانجو",
+    description: "طبقات كريمية مع صوص المانجو وقطع مانجو طازجة"
+  },
+  fr: {
+    name: "Verrine Mangue",
+    description: "Crème légère avec coulis et morceaux de mangue"
+  },
+  en: {
+    name: "Mango Verrine",
+    description: "Creamy verrine with mango sauce and fresh mango pieces"
+  }
+},
+
+{
+  id: 8,
+  category: "desserts",
+  image: "verrine-fruits-rouges.webp",
+  price: 150,
+  ar: {
+    name: "فيرين فواكه حمراء",
+    description: "كريمة ناعمة مع صوص التوت ومزيج من الفواكه الحمراء"
+  },
+  fr: {
+    name: "Verrine Fruits Rouges",
+    description: "Crème onctueuse avec coulis et fruits rouges"
+  },
+  en: {
+    name: "Red Berry Verrine",
+    description: "Creamy verrine with berry sauce and mixed red berries"
+  }
+},
+
+{
+  id: 9,
+  category: "desserts",
+  image: "verrine-lotus.webp",
+  price: 150,
+  ar: {
+    name: "فيرين لوتس",
+    description: "كريمة ناعمة مع كريمة لوتس وبسكويت لوتس المقرمش"
+  },
+  fr: {
+    name: "Verrine Lotus",
+    description: "Crème légère au Lotus avec biscuits Lotus émiettés"
+  },
+  en: {
+    name: "Lotus Verrine",
+    description: "Creamy Lotus verrine with crushed Lotus biscuits"
+  }
 },
 
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
