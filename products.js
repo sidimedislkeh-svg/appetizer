@@ -456,8 +456,103 @@ const products = [
   en: {
     name: "Shrimp Fettuccine",
     description: "Creamy fettuccine with fresh shrimp and Parmesan cheese"
+   }
+  },
+  {
+  id: 54,
+  category: "dishes",
+  image: "dorade-grillee.webp",
+  price: 450,
+  ar: {
+    name: "دوراد مشوية",
+    description: "سمكة دوراد مشوية مع صلصة الأعشاب، الليمون والتوابل المتوسطية"
+  },
+  fr: {
+    name: "Dorade Grillée",
+    description: "Dorade grillée aux herbes, citron et épices méditerranéennes"
+  },
+  en: {
+    name: "Grilled Sea Bream",
+    description: "Grilled sea bream with herbs, lemon and Mediterranean spices"
   }
 },
+
+{
+  id: 55,
+  category: "dishes",
+  image: "crevette-sauce-blanche.webp",
+  price: 450,
+  ar: {
+    name: "جمبري بالصلصة البيضاء",
+    description: "جمبري طازج بصلصة كريمية بيضاء مع الأرز والخضار والبطاطس المقلية"
+  },
+  fr: {
+    name: "Crevettes Sauce Blanche",
+    description: "Crevettes à la sauce blanche avec riz, légumes sautés et frites"
+  },
+  en: {
+    name: "Shrimp in White Sauce",
+    description: "Shrimp in creamy white sauce served with rice, vegetables and fries"
+  }
+},
+
+{
+  id: 56,
+  category: "dishes",
+  image: "crevette-pane.webp",
+  price: 450,
+  ar: {
+    name: "جمبري مقرمش",
+    description: "جمبري بانيه ذهبي مقرمش يقدم مع الأرز والخضار والبطاطس المقلية"
+  },
+  fr: {
+    name: "Crevettes Panées",
+    description: "Crevettes panées croustillantes avec riz, légumes sautés et frites"
+  },
+  en: {
+    name: "Breaded Shrimp",
+    description: "Golden breaded shrimp served with rice, vegetables and fries"
+  }
+},
+
+{
+  id: 57,
+  category: "dishes",
+  image: "wok-de-boeuf.webp",
+  price: 400,
+  ar: {
+    name: "ووك لحم بقري",
+    description: "شرائح لحم بقري مع نودلز وخضار طازجة بصلصة الووك الآسيوية"
+  },
+  fr: {
+    name: "Wok de Bœuf",
+    description: "Bœuf sauté au wok avec nouilles, légumes frais et sauce asiatique"
+  },
+  en: {
+    name: "Beef Wok",
+    description: "Stir-fried beef with noodles, fresh vegetables and Asian wok sauce"
+  }
+},
+
+{
+  id: 58,
+  category: "dishes",
+  image: "poulpe-galicienne.webp",
+  price: 550,
+  ar: {
+    name: "أخطبوط على الطريقة الغاليسية",
+    description: "أخطبوط مشوي يقدم مع البطاطس السوتيه والخضار ولمسة من البابريكا"
+  },
+  fr: {
+    name: "Poulpe à la Galicienne, Pommes Sautées",
+    description: "Poulpe grillé servi avec pommes sautées, légumes et paprika"
+  },
+  en: {
+    name: "Galician Octopus with Sautéed Potatoes",
+    description: "Grilled octopus served with sautéed potatoes, vegetables and paprika"
+  }
+},
+
 
 {
   id: 9,
@@ -743,7 +838,81 @@ const products = [
     description: "Creamy Lotus verrine with crushed Lotus biscuits"
   }
 },
+{
+  id: 59,
+  category: "desserts",
+  image: "cheesecake-oreo.webp",
+  price: 150,
+  ar: {
+    name: "تشيزكيك أوريو",
+    description: "تشيزكيك كريمي بقاعدة أوريو مع قطع بسكويت أوريو وكريمة مخفوقة"
+  },
+  fr: {
+    name: "Cheesecake Oreo",
+    description: "Cheesecake crémeux à l'Oreo avec morceaux d'Oreo et crème fouettée"
+  },
+  en: {
+    name: "Oreo Cheesecake",
+    description: "Creamy Oreo cheesecake with crushed Oreo cookies and whipped cream"
+  }
+},
 
+{
+  id: 60,
+  category: "desserts",
+  image: "cheesecake-fruits-mangue.webp",
+  price: 150,
+  ar: {
+    name: "تشيزكيك بالفواكه الحمراء والمانجو",
+    description: "تشيزكيك كريمي بنكهتي الفواكه الحمراء والمانجو الطازجة"
+  },
+  fr: {
+    name: "Cheesecake Fruits Rouges & Mangue",
+    description: "Cheesecake crémeux aux fruits rouges et à la mangue"
+  },
+  en: {
+    name: "Red Fruits & Mango Cheesecake",
+    description: "Creamy cheesecake with red berries and fresh mango"
+  }
+},
+
+{
+  id: 61,
+  category: "desserts",
+  image: "cheesecake-lotus.webp",
+  price: 150,
+  ar: {
+    name: "تشيزكيك لوتس",
+    description: "تشيزكيك كريمي مغطى بكريمة اللوتس مع بسكويت لوتس المقرمش"
+  },
+  fr: {
+    name: "Cheesecake Lotus",
+    description: "Cheesecake crémeux nappé de crème Lotus et biscuit Lotus"
+  },
+  en: {
+    name: "Lotus Cheesecake",
+    description: "Creamy cheesecake topped with Lotus spread and Lotus biscuit"
+  }
+},
+
+{
+  id: 62,
+  category: "desserts",
+  image: "san-sebastian.webp",
+  price: 200,
+  ar: {
+    name: "تشيزكيك سان سيباستيان",
+    description: "تشيزكيك سان سيباستيان المخبوز بقوام كريمي ونكهة كراميل مميزة"
+  },
+  fr: {
+    name: "Cheesecake San Sebastian",
+    description: "Cheesecake San Sebastian cuit au four, texture fondante et saveur caramélisée"
+  },
+  en: {
+    name: "San Sebastian Cheesecake",
+    description: "Baked San Sebastian cheesecake with a creamy texture and caramelized flavor"
+  }
+},
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
 {
   id: 1,
