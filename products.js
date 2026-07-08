@@ -921,15 +921,15 @@ const products = [
   price: 400,
   ar: {
     name: "فطور فرنسي",
-    description: "سلة معجنات فرنسية، مشروب ساخن، عصير برتقال، مياه معدنية، سلطة فواكه، أومليت، وبروفيترول"
+    description: "سلة معجنات فرنسية، مشروب ساخن، عصير برتقال، مياه معدنية، أومليت، وبروفيترول"
   },
   fr: {
     name: "Petit Déjeuner Français",
-    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale, salade de fruits, omelette et profiterole"
+    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale, omelette et profiterole"
   },
   en: {
     name: "French Breakfast",
-    description: "French pastry basket, hot drink, orange juice, mineral water, fruit salad, omelette and profiterole"
+    description: "French pastry basket, hot drink, orange juice, mineral water,  omelette and profiterole"
   }
 },
 
@@ -940,15 +940,15 @@ const products = [
   price: 430,
   ar: {
     name: "برانش",
-    description: "سلة معجنات فرنسية، مشروب ساخن، عصير برتقال، مياه معدنية، سلطة فواكه، أومليت، هوت دوغ، ميني ساندويتش دجاج، جبن جودة مع لحم هام، تشكيلة حلويات، زبدة، مربى وجبن"
+    description: "سلة معجنات فرنسية، مشروب ساخن، عصير برتقال، مياه معدنية، أومليت، هوت دوغ، جبن جودة مع لحم هام، تشكيلة حلويات، زبدة، مربى وجبن"
   },
   fr: {
     name: "Brunch",
-    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale, salade de fruits, omelette, hot dog, mini sandwich poulet, gouda et jambon, trio de desserts, beurre, confiture et fromage"
+    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale, omelette, hot dog,  gouda et jambon, trio de desserts, beurre, confiture et fromage"
   },
   en: {
     name: "Brunch",
-    description: "French pastry basket, hot drink, orange juice, mineral water, fruit salad, omelette, hot dog, mini chicken sandwich, Gouda cheese with ham, dessert trio, butter, jam and cheese"
+    description: "French pastry basket, hot drink, orange juice, mineral water, omelette, hot dog,  Gouda cheese with ham, dessert trio, butter, jam and cheese"
   }
 },
 {
