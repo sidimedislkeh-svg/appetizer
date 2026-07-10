@@ -97,7 +97,7 @@ const products = [
   }
 },
 {
-  id: 8,
+  id: 7,
   category: "drinks",
   image: "mint-mojito.webp",
   price: 190,
@@ -116,7 +116,7 @@ const products = [
 },
 
 {
-  id: 7,
+  id: 8,
   category: "drinks",
   image: "cappuccino.webp",
   price: 100,
@@ -135,7 +135,7 @@ const products = [
 },
 
 {
-  id: 8,
+  id: 9,
   category: "drinks",
   image: "mocha.webp",
   price: 150,
@@ -211,25 +211,7 @@ const products = [
   en: { name: "Meat Sandwich", description: "Grilled meat sandwich with lettuce, tomato and house sauce" }
 },
 
-{
-  id: 3,
-  category: "snacks",
-  image: "pizza-margherita.webp",
-  price: 200,
-  ar: { name: "بيتزا مارغريتا", description: "بيتزا بصلصة الطماطم وجبن الموزاريلا والأوريغانو" },
-  fr: { name: "Pizza Margherita", description: "Pizza à la sauce tomate, mozzarella et origan" },
-  en: { name: "Margherita Pizza", description: "Classic pizza with tomato sauce, mozzarella and oregano" }
-},
 
-{
-  id: 4,
-  category: "snacks",
-  image: "pizza-tuna.webp",
-  price: 250,
-  ar: { name: "بيتزا تونة", description: "بيتزا بالتونة وجبن الموزاريلا وصلصة الطماطم" },
-  fr: { name: "Pizza Thon", description: "Pizza au thon, mozzarella et sauce tomate" },
-  en: { name: "Tuna Pizza", description: "Pizza topped with tuna, mozzarella and tomato sauce" }
-},
 {
   id: 5,
   category: "snacks",
@@ -287,6 +269,25 @@ const products = [
   }
 },
 {
+  id: 3,
+  category: "snacks",
+  image: "pizza-margherita.webp",
+  price: 200,
+  ar: { name: "بيتزا مارغريتا", description: "بيتزا بصلصة الطماطم وجبن الموزاريلا والأوريغانو" },
+  fr: { name: "Pizza Margherita", description: "Pizza à la sauce tomate, mozzarella et origan" },
+  en: { name: "Margherita Pizza", description: "Classic pizza with tomato sauce, mozzarella and oregano" }
+},
+
+{
+  id: 4,
+  category: "snacks",
+  image: "pizza-tuna.webp",
+  price: 250,
+  ar: { name: "بيتزا تونة", description: "بيتزا بالتونة وجبن الموزاريلا وصلصة الطماطم" },
+  fr: { name: "Pizza Thon", description: "Pizza au thon, mozzarella et sauce tomate" },
+  en: { name: "Tuna Pizza", description: "Pizza topped with tuna, mozzarella and tomato sauce" }
+},
+{
   id: 8,
   category: "snacks",
   image: "chicken-pizza.webp",
@@ -323,10 +324,118 @@ const products = [
     description: "Italian pizza topped with seasoned beef, mozzarella, onions and peppers"
   }
 },
+{
+  id: 31,
+  category: "snacks",
+  image: "pizza-fruits-de-mer.webp",
+  price: 250,
 
+  ar: {
+    name: "بيتزا فواكه البحر",
+    description: "بيتزا غنية بالروبيان والكالامار والأخطبوط مع الجبن."
+  },
+
+  fr: {
+    name: "Pizza Fruits de Mer",
+    description: "Pizza garnie de crevettes, calamars, poulpe et fromage."
+  },
+
+  en: {
+    name: "Seafood Pizza",
+    description: "Pizza topped with shrimp, calamari, octopus and cheese."
+  }
+},
+
+{
+  id: 32,
+  category: "snacks",
+  image: "pizza-crevettes.webp",
+  price: 230,
+
+  ar: {
+    name: "بيتزا الروبيان",
+    description: "بيتزا بالروبيان الطازج مع الجبن والفلفل الملون."
+  },
+
+  fr: {
+    name: "Pizza Crevettes",
+    description: "Pizza aux crevettes, fromage et poivrons."
+  },
+
+  en: {
+    name: "Shrimp Pizza",
+    description: "Pizza with shrimp, cheese and bell peppers."
+  }
+},
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
  {
+  id: 17,
+  category: "dishes",
+  image: "cordon-bleu.webp",
+  price: 350,
+
+  ar: {
+    name: "كوردون بلو",
+    description: "صدر دجاج محشو بالجبن واللحم المدخن، مقرمش من الخارج وطري من الداخل."
+  },
+
+  fr: {
+    name: "Cordon Bleu",
+    description: "Escalope de poulet farcie au fromage et jambon, croustillante à l'extérieur et fondante à l'intérieur."
+  },
+
+  en: {
+    name: "Cordon Bleu",
+    description: "Chicken breast stuffed with cheese and ham, crispy outside and tender inside."
+  }
+},
+
+{
+  id: 18,
+  category: "dishes",
+  image: "brochette-poulet.webp",
+  price: 350,
+
+  ar: {
+    name: "أسياخ دجاج",
+    description: "أسياخ دجاج مشوية ومتّبلة، تقدم بنكهة غنية ولمسة طازجة."
+  },
+
+  fr: {
+    name: "Brochette de Poulet",
+    description: "Brochettes de poulet grillées et marinées, servies avec une touche fraîche."
+  },
+
+  en: {
+    name: "Chicken Skewers",
+    description: "Grilled marinated chicken skewers served with a fresh touch."
+  }
+},
+
+{
+  id: 19,
+  category: "dishes",
+  image: "emince-poulet-creme-champignon.webp",
+  price: 400,
+
+  ar: {
+    name: "إمينسي دجاج بالكريمة والفطر",
+    description: "شرائح دجاج طرية مطهوة بصلصة كريمة الفطر الغنية."
+  },
+
+  fr: {
+    name: "Émincé de Poulet à la Crème Champignon",
+    description: "Émincé de poulet tendre dans une sauce crémeuse aux champignons."
+  },
+
+  en: {
+    name: "Creamy Mushroom Chicken",
+    description: "Tender sliced chicken served in a rich creamy mushroom sauce."
+  }
+},
+
+  {
   id: 1,
   category: "dishes",
   image: "sole.webp",
@@ -365,99 +474,7 @@ const products = [
   fr: { name: "Côtelette d’Agneau", description: "Côtelettes d'agneau grillées servies avec pommes de terre et légumes" },
   en: { name: "Lamb Chops", description: "Grilled lamb chops served with potatoes and seasonal vegetables" }
 },
-{
-  id: 5,
-  category: "dishes",
-  image: "spaghetti-bolognese.webp",
-  price: 350,
-  ar: {
-    name: "سباغيتي بولونيز",
-    description: "سباغيتي إيطالية بصلصة البولونيز الغنية باللحم البقري والطماطم وجبن البارميزان"
-  },
-  fr: {
-    name: "Spaghetti Bolognaise",
-    description: "Spaghetti italien avec sauce bolognaise au bœuf, tomates et parmesan"
-  },
-  en: {
-    name: "Spaghetti Bolognese",
-    description: "Italian spaghetti with rich beef bolognese sauce, tomatoes and Parmesan cheese"
-  }
-},
 
-{
-  id: 6,
-  category: "dishes",
-  image: "fettuccine-alfredo.webp",
-  price: 380,
-  ar: {
-    name: "فيتوتشيني ألفريدو",
-    description: "فيتوتشيني بصلصة ألفريدو الكريمية مع صدر دجاج مشوي وجبن البارميزان"
-  },
-  fr: {
-    name: "Fettuccine Alfredo",
-    description: "Fettuccine à la sauce Alfredo crémeuse avec poulet grillé et parmesan"
-  },
-  en: {
-    name: "Fettuccine Alfredo",
-    description: "Fettuccine in creamy Alfredo sauce with grilled chicken and Parmesan cheese"
-  }
-},
-
-{
-  id: 6,
-  category: "dishes",
-  image: "penne-arrabbiata.webp",
-  price: 300,
-  ar: {
-    name: "بيني أرابياتا",
-    description: "مكرونة بيني بصلصة الطماطم الحارة والأعشاب الإيطالية وجبن البارميزان"
-  },
-  fr: {
-    name: "Penne Arrabbiata",
-    description: "Penne à la sauce tomate épicée, herbes italiennes et parmesan"
-  },
-  en: {
-    name: "Penne Arrabbiata",
-    description: "Penne pasta with spicy tomato sauce, Italian herbs and Parmesan cheese"
-  }
-},
-
-{
-  id: 7,
-  category: "dishes",
-  image: "spaghetti-seafood.webp",
-  price: 550,
-  ar: {
-    name: "سباغيتي ثمار البحر",
-    description: "سباغيتي مع الروبيان وبلح البحر والكالاماري بصلصة الطماطم الإيطالية"
-  },
-  fr: {
-    name: "Spaghetti aux Fruits de Mer",
-    description: "Spaghetti aux crevettes, moules et calamars dans une sauce tomate italienne"
-  },
-  en: {
-    name: "Seafood Spaghetti",
-    description: "Spaghetti with shrimp, mussels and calamari in Italian tomato sauce"
-  }
-},
-{
-  id: 8,
-  category: "dishes",
-  image: "fettuccine-shrimp.webp",
-  price: 400,
-  ar: {
-    name: "فيتوتشيني بالجمبري",
-    description: "فيتوتشيني بصلصة كريمية غنية مع جمبري طازج وجبن البارميزان"
-  },
-  fr: {
-    name: "Fettuccine aux Crevettes",
-    description: "Fettuccine à la sauce crémeuse avec crevettes fraîches et parmesan"
-  },
-  en: {
-    name: "Shrimp Fettuccine",
-    description: "Creamy fettuccine with fresh shrimp and Parmesan cheese"
-   }
-  },
   {
   id: 54,
   category: "dishes",
@@ -555,62 +572,6 @@ const products = [
 
 
 {
-  id: 9,
-  category: "dishes",
-  image: "penne-mushroom-cream.webp",
-  price: 350,
-  ar: {
-    name: "بيني بالفطر والكريمة",
-    description: "مكرونة بيني بصلصة الكريمة والفطر الطازج مع جبن البارميزان"
-  },
-  fr: {
-    name: "Penne aux Champignons et Crème",
-    description: "Penne à la crème avec champignons frais et parmesan"
-  },
-  en: {
-    name: "Penne with Mushrooms & Cream",
-    description: "Penne pasta in creamy mushroom sauce with Parmesan cheese"
-  }
-},
-
-{
-  id: 10,
-  category: "dishes",
-  image: "lasagna-bolognese.webp",
-  price: 400,
-  ar: {
-    name: "لازانيا بولونيز",
-    description: "طبقات لازانيا مخبوزة مع صلصة البولونيز ولحم بقري وجبن موزاريلا"
-  },
-  fr: {
-    name: "Lasagne Bolognaise",
-    description: "Lasagnes gratinées avec sauce bolognaise, bœuf haché et mozzarella"
-  },
-  en: {
-    name: "Lasagna Bolognese",
-    description: "Baked lasagna with beef bolognese sauce and mozzarella cheese"
-  }
-},
-
-{
-  id: 11,
-  category: "dishes",
-  image: "spaghetti-aglio-olio.webp",
-  price: 300,
-  ar: {
-    name: "سباغيتي أجليو إي أوليو",
-    description: "سباغيتي بزيت الزيتون والثوم والأعشاب الإيطالية مع رقائق الفلفل الحار"
-  },
-  fr: {
-    name: "Spaghetti Aglio e Olio",
-    description: "Spaghetti à l'huile d'olive, ail, herbes italiennes et piment"
-  },
-  en: {
-    name: "Spaghetti Aglio e Olio",
-    description: "Spaghetti with olive oil, garlic, Italian herbs and chili flakes"
-  }
-},
-{
   id: 12,
   category: "dishes",
   image: "grilled-thiof.webp",
@@ -701,6 +662,155 @@ const products = [
   en: {
     name: "Appetizer Salad",
     description: "Mixed greens, cherry tomatoes, cheese, walnuts and turkey ham"
+  }
+},
+{
+  id: 5,
+  category: "dishes",
+  image: "spaghetti-bolognese.webp",
+  price: 350,
+  ar: {
+    name: "سباغيتي بولونيز",
+    description: "سباغيتي إيطالية بصلصة البولونيز الغنية باللحم البقري والطماطم وجبن البارميزان"
+  },
+  fr: {
+    name: "Spaghetti Bolognaise",
+    description: "Spaghetti italien avec sauce bolognaise au bœuf, tomates et parmesan"
+  },
+  en: {
+    name: "Spaghetti Bolognese",
+    description: "Italian spaghetti with rich beef bolognese sauce, tomatoes and Parmesan cheese"
+  }
+},
+
+{
+  id: 6,
+  category: "dishes",
+  image: "fettuccine-alfredo.webp",
+  price: 380,
+  ar: {
+    name: "فيتوتشيني ألفريدو",
+    description: "فيتوتشيني بصلصة ألفريدو الكريمية مع صدر دجاج مشوي وجبن البارميزان"
+  },
+  fr: {
+    name: "Fettuccine Alfredo",
+    description: "Fettuccine à la sauce Alfredo crémeuse avec poulet grillé et parmesan"
+  },
+  en: {
+    name: "Fettuccine Alfredo",
+    description: "Fettuccine in creamy Alfredo sauce with grilled chicken and Parmesan cheese"
+  }
+},
+
+{
+  id: 6,
+  category: "dishes",
+  image: "penne-arrabbiata.webp",
+  price: 300,
+  ar: {
+    name: "بيني أرابياتا",
+    description: "مكرونة بيني بصلصة الطماطم الحارة والأعشاب الإيطالية وجبن البارميزان"
+  },
+  fr: {
+    name: "Penne Arrabbiata",
+    description: "Penne à la sauce tomate épicée, herbes italiennes et parmesan"
+  },
+  en: {
+    name: "Penne Arrabbiata",
+    description: "Penne pasta with spicy tomato sauce, Italian herbs and Parmesan cheese"
+  }
+},
+
+{
+  id: 7,
+  category: "dishes",
+  image: "spaghetti-seafood.webp",
+  price: 550,
+  ar: {
+    name: "سباغيتي ثمار البحر",
+    description: "سباغيتي مع الروبيان وبلح البحر والكالاماري بصلصة الطماطم الإيطالية"
+  },
+  fr: {
+    name: "Spaghetti aux Fruits de Mer",
+    description: "Spaghetti aux crevettes, moules et calamars dans une sauce tomate italienne"
+  },
+  en: {
+    name: "Seafood Spaghetti",
+    description: "Spaghetti with shrimp, mussels and calamari in Italian tomato sauce"
+  }
+},
+{
+  id: 8,
+  category: "dishes",
+  image: "fettuccine-shrimp.webp",
+  price: 400,
+  ar: {
+    name: "فيتوتشيني بالجمبري",
+    description: "فيتوتشيني بصلصة كريمية غنية مع جمبري طازج وجبن البارميزان"
+  },
+  fr: {
+    name: "Fettuccine aux Crevettes",
+    description: "Fettuccine à la sauce crémeuse avec crevettes fraîches et parmesan"
+  },
+  en: {
+    name: "Shrimp Fettuccine",
+    description: "Creamy fettuccine with fresh shrimp and Parmesan cheese"
+   }
+  },
+  {
+  id: 9,
+  category: "dishes",
+  image: "penne-mushroom-cream.webp",
+  price: 350,
+  ar: {
+    name: "بيني بالفطر والكريمة",
+    description: "مكرونة بيني بصلصة الكريمة والفطر الطازج مع جبن البارميزان"
+  },
+  fr: {
+    name: "Penne aux Champignons et Crème",
+    description: "Penne à la crème avec champignons frais et parmesan"
+  },
+  en: {
+    name: "Penne with Mushrooms & Cream",
+    description: "Penne pasta in creamy mushroom sauce with Parmesan cheese"
+  }
+},
+
+{
+  id: 10,
+  category: "dishes",
+  image: "lasagna-bolognese.webp",
+  price: 400,
+  ar: {
+    name: "لازانيا بولونيز",
+    description: "طبقات لازانيا مخبوزة مع صلصة البولونيز ولحم بقري وجبن موزاريلا"
+  },
+  fr: {
+    name: "Lasagne Bolognaise",
+    description: "Lasagnes gratinées avec sauce bolognaise, bœuf haché et mozzarella"
+  },
+  en: {
+    name: "Lasagna Bolognese",
+    description: "Baked lasagna with beef bolognese sauce and mozzarella cheese"
+  }
+},
+
+{
+  id: 11,
+  category: "dishes",
+  image: "spaghetti-aglio-olio.webp",
+  price: 300,
+  ar: {
+    name: "سباغيتي أجليو إي أوليو",
+    description: "سباغيتي بزيت الزيتون والثوم والأعشاب الإيطالية مع رقائق الفلفل الحار"
+  },
+  fr: {
+    name: "Spaghetti Aglio e Olio",
+    description: "Spaghetti à l'huile d'olive, ail, herbes italiennes et piment"
+  },
+  en: {
+    name: "Spaghetti Aglio e Olio",
+    description: "Spaghetti with olive oil, garlic, Italian herbs and chili flakes"
   }
 },
 
@@ -925,7 +1035,7 @@ const products = [
   },
   fr: {
     name: "Petit Déjeuner Français",
-    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale, omelette et profiterole"
+    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale,  omelette et profiterole"
   },
   en: {
     name: "French Breakfast",
@@ -944,11 +1054,11 @@ const products = [
   },
   fr: {
     name: "Brunch",
-    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale, omelette, hot dog,  gouda et jambon, trio de desserts, beurre, confiture et fromage"
+    description: "Panier de viennoiseries, boisson chaude, jus d'orange, eau minérale,  omelette, hot dog,  gouda et jambon, trio de desserts, beurre, confiture et fromage"
   },
   en: {
     name: "Brunch",
-    description: "French pastry basket, hot drink, orange juice, mineral water, omelette, hot dog,  Gouda cheese with ham, dessert trio, butter, jam and cheese"
+    description: "French pastry basket, hot drink, orange juice, mineral water,  omelette, hot dog,  Gouda cheese with ham, dessert trio, butter, jam and cheese"
   }
 },
 {
