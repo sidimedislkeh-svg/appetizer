@@ -154,7 +154,7 @@ const products = [
 },
 
 {
-  id: 9,
+  id: 10,
   category: "drinks",
   image: "americano.webp",
   price: 100,
@@ -173,7 +173,7 @@ const products = [
 },
 
 {
-  id: 10,
+  id: 11,
   category: "drinks",
   image: "espresso.webp",
   price: 100,
@@ -192,7 +192,7 @@ const products = [
 },
   // ─── SNACKS / سناك ──────────────────────────────────────────────────────────
  {
-  id: 1,
+  id: 12,
   category: "snacks",
   image: "cheeseburger.webp",
   price: 200,
@@ -202,7 +202,7 @@ const products = [
 },
 
 {
-  id: 2,
+  id: 13,
   category: "snacks",
   image: "meat-sandwich.webp",
   price: 180,
@@ -213,7 +213,7 @@ const products = [
 
 
 {
-  id: 5,
+  id: 14,
   category: "snacks",
   image: "maqloob.webp",
   price: 220,
@@ -232,7 +232,7 @@ const products = [
 },
 
 {
-  id: 6,
+  id: 15,
   category: "snacks",
   image: "tacos.webp",
   price: 170,
@@ -251,7 +251,7 @@ const products = [
 },
 
 {
-  id: 7,
+  id: 16,
   category: "snacks",
   image: "baguette-farcie.webp",
   price: 230,
@@ -269,7 +269,7 @@ const products = [
   }
 },
 {
-  id: 3,
+  id: 17,
   category: "snacks",
   image: "pizza-margherita.webp",
   price: 200,
@@ -279,7 +279,7 @@ const products = [
 },
 
 {
-  id: 4,
+  id: 18,
   category: "snacks",
   image: "pizza-tuna.webp",
   price: 250,
@@ -288,7 +288,7 @@ const products = [
   en: { name: "Tuna Pizza", description: "Pizza topped with tuna, mozzarella and tomato sauce" }
 },
 {
-  id: 8,
+  id: 19,
   category: "snacks",
   image: "chicken-pizza.webp",
   price: 200,
@@ -307,7 +307,7 @@ const products = [
 },
 
 {
-  id: 9,
+  id: 20,
   category: "snacks",
   image: "beef-pizza.webp",
   price: 200,
@@ -325,7 +325,7 @@ const products = [
   }
 },
 {
-  id: 31,
+  id: 21,
   category: "snacks",
   image: "pizza-fruits-de-mer.webp",
   price: 250,
@@ -347,7 +347,7 @@ const products = [
 },
 
 {
-  id: 32,
+  id: 22,
   category: "snacks",
   image: "pizza-crevettes.webp",
   price: 230,
@@ -370,10 +370,10 @@ const products = [
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
  {
-  id: 17,
+  id: 23,
   category: "dishes",
   image: "cordon-bleu.webp",
-  price: 350,
+  price: 550,
 
   ar: {
     name: "كوردون بلو",
@@ -390,9 +390,26 @@ const products = [
     description: "Chicken breast stuffed with cheese and ham, crispy outside and tender inside."
   }
 },
-
 {
-  id: 18,
+  id: 64,
+  category: "dishes",
+  image: "crepe-jambon-fromage.webp",
+  price: 200,
+  ar: {
+    name: "كريب بالجامبون والجبن",
+    description: "كريب مالح محشو بالجامبون والجبن"
+  },
+  fr: {
+    name: "Crêpe Jambon Fromage",
+    description: "Crêpe salée garnie de jambon et de fromage"
+  },
+  en: {
+    name: "Ham & Cheese Crêpe",
+    description: "Savory crêpe filled with ham and cheese"
+  }
+},
+{
+  id: 24,
   category: "dishes",
   image: "brochette-poulet.webp",
   price: 350,
@@ -414,7 +431,7 @@ const products = [
 },
 
 {
-  id: 19,
+  id: 25,
   category: "dishes",
   image: "emince-poulet-creme-champignon.webp",
   price: 400,
@@ -436,7 +453,7 @@ const products = [
 },
 
   {
-  id: 1,
+  id: 26,
   category: "dishes",
   image: "sole.webp",
   price: 480,
@@ -446,7 +463,7 @@ const products = [
 },
 
 {
-  id: 2,
+  id: 27,
   category: "dishes",
   image: "seafood-mix.webp",
   price: 650,
@@ -456,7 +473,7 @@ const products = [
 },
 
 {
-  id: 3,
+  id: 28,
   category: "dishes",
   image: "fillet-grille.webp",
   price: 600,
@@ -466,7 +483,7 @@ const products = [
 },
 
 {
-  id: 4,
+  id: 29,
   category: "dishes",
   image: "lamb-chops.webp",
   price: 640,
@@ -476,7 +493,7 @@ const products = [
 },
 
   {
-  id: 54,
+  id: 30,
   category: "dishes",
   image: "dorade-grillee.webp",
   price: 450,
@@ -495,7 +512,7 @@ const products = [
 },
 
 {
-  id: 55,
+  id: 31,
   category: "dishes",
   image: "crevette-sauce-blanche.webp",
   price: 450,
@@ -514,7 +531,7 @@ const products = [
 },
 
 {
-  id: 56,
+  id: 32,
   category: "dishes",
   image: "crevette-pane.webp",
   price: 450,
@@ -533,7 +550,7 @@ const products = [
 },
 
 {
-  id: 57,
+  id: 33,
   category: "dishes",
   image: "wok-de-boeuf.webp",
   price: 400,
@@ -552,7 +569,7 @@ const products = [
 },
 
 {
-  id: 58,
+  id: 34,
   category: "dishes",
   image: "poulpe-galicienne.webp",
   price: 550,
@@ -572,7 +589,7 @@ const products = [
 
 
 {
-  id: 12,
+  id: 35,
   category: "dishes",
   image: "grilled-thiof.webp",
   price: 650,
@@ -590,7 +607,7 @@ const products = [
   }
 },
 {
-  id: 13,
+  id: 36,
   category: "dishes",
   image: "mixed-salad.webp",
   price: 260,
@@ -609,7 +626,7 @@ const products = [
 },
 
 {
-  id: 41,
+  id: 37,
   category: "dishes",
   image: "caesar-salad.webp",
   price: 300,
@@ -628,7 +645,7 @@ const products = [
 },
 
 {
-  id: 42,
+  id: 38,
   category: "dishes",
   image: "nicoise-salad.webp",
   price: 280,
@@ -647,7 +664,7 @@ const products = [
 },
 
 {
-  id: 43,
+  id: 39,
   category: "dishes",
   image: "appetizer-salad.webp",
   price: 320,
@@ -665,7 +682,7 @@ const products = [
   }
 },
 {
-  id: 5,
+  id: 40,
   category: "dishes",
   image: "spaghetti-bolognese.webp",
   price: 350,
@@ -684,7 +701,7 @@ const products = [
 },
 
 {
-  id: 6,
+  id: 41,
   category: "dishes",
   image: "fettuccine-alfredo.webp",
   price: 380,
@@ -703,7 +720,7 @@ const products = [
 },
 
 {
-  id: 6,
+  id: 42,
   category: "dishes",
   image: "penne-arrabbiata.webp",
   price: 300,
@@ -722,7 +739,7 @@ const products = [
 },
 
 {
-  id: 7,
+  id: 43,
   category: "dishes",
   image: "spaghetti-seafood.webp",
   price: 550,
@@ -740,7 +757,7 @@ const products = [
   }
 },
 {
-  id: 8,
+  id: 44,
   category: "dishes",
   image: "fettuccine-shrimp.webp",
   price: 400,
@@ -758,7 +775,7 @@ const products = [
    }
   },
   {
-  id: 9,
+  id: 45,
   category: "dishes",
   image: "penne-mushroom-cream.webp",
   price: 350,
@@ -777,7 +794,7 @@ const products = [
 },
 
 {
-  id: 10,
+  id: 46,
   category: "dishes",
   image: "lasagna-bolognese.webp",
   price: 400,
@@ -796,7 +813,7 @@ const products = [
 },
 
 {
-  id: 11,
+  id: 47,
   category: "dishes",
   image: "spaghetti-aglio-olio.webp",
   price: 300,
@@ -816,7 +833,7 @@ const products = [
 
   // ─── DESSERTS / تحلية ────────────────────────────────────────────────────────
   {
-  id: 1,
+  id: 48,
   category: "desserts",
   image: "cream-puff.webp",
   price: 200,
@@ -826,7 +843,7 @@ const products = [
 },
 
 {
-  id: 2,
+  id: 49,
   category: "desserts",
   image: "brownies.webp",
   price: 200,
@@ -836,7 +853,7 @@ const products = [
 },
 
 {
-  id: 3,
+  id: 50,
   category: "desserts",
   image: "flan-caramel.webp",
   price: 180,
@@ -846,7 +863,7 @@ const products = [
 },
 
 {
-  id: 4,
+  id: 51,
   category: "desserts",
   image: "crepe-nutella.webp",
   price: 120,
@@ -855,7 +872,25 @@ const products = [
   en: { name: "Nutella Crepe", description: "Fresh crepe filled with Nutella and served warm" }
 },
 {
-  id: 5,
+  id: 63,
+  category: "desserts",
+  image: "crepe-chocolat-banane.webp",
+  price: 200,
+  ar: {
+    name: "كريب بالشوكولاتة والموز",
+    description: "كريب محشو بالشوكولاتة والموز"
+  },
+  fr: {
+    name: "Crêpe Chocolat Banane",
+    description: "Crêpe garnie de chocolat et de banane"
+  },
+  en: {
+    name: "Chocolate Banana Crêpe",
+    description: "Crêpe filled with chocolate and banana"
+  }
+},
+{
+  id: 52,
   category: "desserts",
   image: "verrine-chocolat.webp",
   price: 150,
@@ -874,7 +909,7 @@ const products = [
 },
 
 {
-  id: 6,
+  id: 53,
   category: "desserts",
   image: "verrine-oreo.webp",
   price: 150,
@@ -893,7 +928,7 @@ const products = [
 },
 
 {
-  id: 7,
+  id: 54,
   category: "desserts",
   image: "verrine-mango.webp",
   price: 150,
@@ -912,7 +947,7 @@ const products = [
 },
 
 {
-  id: 8,
+  id: 55,
   category: "desserts",
   image: "verrine-fruits-rouges.webp",
   price: 150,
@@ -931,7 +966,7 @@ const products = [
 },
 
 {
-  id: 9,
+  id: 56,
   category: "desserts",
   image: "verrine-lotus.webp",
   price: 150,
@@ -949,7 +984,7 @@ const products = [
   }
 },
 {
-  id: 59,
+  id: 57,
   category: "desserts",
   image: "cheesecake-oreo.webp",
   price: 150,
@@ -968,7 +1003,7 @@ const products = [
 },
 
 {
-  id: 60,
+  id: 58,
   category: "desserts",
   image: "cheesecake-fruits-mangue.webp",
   price: 150,
@@ -987,7 +1022,7 @@ const products = [
 },
 
 {
-  id: 61,
+  id: 59,
   category: "desserts",
   image: "cheesecake-lotus.webp",
   price: 150,
@@ -1006,7 +1041,7 @@ const products = [
 },
 
 {
-  id: 62,
+  id: 60,
   category: "desserts",
   image: "san-sebastian.webp",
   price: 200,
@@ -1025,7 +1060,7 @@ const products = [
 },
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
 {
-  id: 1,
+  id: 61,
   category: "breakfast",
   image: "french-breakfast.webp",
   price: 400,
@@ -1044,7 +1079,7 @@ const products = [
 },
 
 {
-  id: 2,
+  id: 62,
   category: "breakfast",
   image: "brunch.webp",
   price: 430,
@@ -1062,7 +1097,7 @@ const products = [
   }
 },
 {
-  id: 3,
+  id: 63,
   category: "breakfast",
   image: "avocado-tartine.webp",
   price: 450,
@@ -1081,7 +1116,7 @@ const products = [
 },
 
 {
-  id: 4,
+  id: 64,
   category: "breakfast",
   image: "tomato-tartine.webp",
   price: 350,
@@ -1100,7 +1135,7 @@ const products = [
 },
 
 {
-  id: 5,
+  id: 65,
   category: "breakfast",
   image: "eggs-tartine.webp",
   price: 350,
@@ -1119,7 +1154,7 @@ const products = [
 },
 
 {
-  id: 6,
+  id: 66,
   category: "breakfast",
   image: "scrambled-eggs-tartine.webp",
   price: 300,
@@ -1138,7 +1173,7 @@ const products = [
 },
 
 {
-  id: 7,
+  id: 67,
   category: "breakfast",
   image: "tuna-tartine.webp",
   price: 450,
@@ -1156,7 +1191,7 @@ const products = [
   }
 },
   {
-  id: 8,
+  id: 68,
   category: "breakfast",
   image: "croissant-classique.webp",
   price: 300,
@@ -1175,7 +1210,7 @@ const products = [
 },
 
 {
-  id: 9,
+  id: 69,
   category: "breakfast",
   image: "croissant-chocolat.webp",
   price: 250,
@@ -1194,7 +1229,7 @@ const products = [
 },
 
 {
-  id: 10,
+  id: 70,
   category: "breakfast",
   image: "pain-raisins.webp",
   price: 220,
@@ -1213,7 +1248,7 @@ const products = [
 },
 
 {
-  id: 11,
+  id: 71,
   category: "breakfast",
   image: "assortiment-gourmand.webp",
   price: 300,
@@ -1231,7 +1266,7 @@ const products = [
   }
 },// ─── SHISHA / شيشة ───────────────────────────────────────────────────────────
  {
-  id: 1,
+  id: 72,
   category: "shisha",
   image: "shisha-hawaii.webp",
   price: 300,
@@ -1241,7 +1276,7 @@ const products = [
 },
 
 {
-  id: 2,
+  id: 73,
   category: "shisha",
   image: "shisha-love.webp",
   price: 300,
@@ -1251,7 +1286,7 @@ const products = [
 },
 
 {
-  id: 3,
+  id: 74,
   category: "shisha",
   image: "shisha-nana.webp",
   price: 300,
@@ -1261,7 +1296,7 @@ const products = [
 },
 
 {
-  id: 4,
+  id: 75,
   category: "shisha",
   image: "shisha-miamor.webp",
   price: 300,
