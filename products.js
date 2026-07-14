@@ -370,6 +370,24 @@ const products = [
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
  {
+  id: 65,
+  category: "dishes",
+  image: "sushi.webp",
+  price: 1000,
+  ar: {
+    name: "سوشي",
+    description: "تشكيلة سوشي متنوعة"
+  },
+  fr: {
+    name: "Sushi",
+    description: "Assortiment de sushis variés"
+  },
+  en: {
+    name: "Sushi",
+    description: "Assorted sushi selection"
+  }
+},
+  {
   id: 23,
   category: "dishes",
   image: "cordon-bleu.webp",
