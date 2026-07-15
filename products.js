@@ -700,6 +700,24 @@ const products = [
   }
 },
 {
+  id: 76,
+  category: "dishes",
+  image: "salade-complete-thon.webp",
+  price: 300,
+  ar: {
+    name: "سلطة كاملة بالتونة",
+    description: "سلطة طازجة مع التونة والبيض والخضروات"
+  },
+  fr: {
+    name: "Salade complète au thon",
+    description: "Salade fraîche au thon, œufs et légumes"
+  },
+  en: {
+    name: "Complete Tuna Salad",
+    description: "Fresh salad with tuna, eggs and vegetables"
+  }
+},
+{
   id: 40,
   category: "dishes",
   image: "spaghetti-bolognese.webp",
