@@ -1094,6 +1094,60 @@ const products = [
     description: "Baked San Sebastian cheesecake with a creamy texture and caramelized flavor"
   }
 },
+{
+  id: 77,
+  category: "desserts",
+  image: "tiramisu-chocolat.webp",
+  price: 280,
+  ar: {
+    name: "تيراميسو بالشوكولاتة",
+    description: "تيراميسو كريمي بطبقات الشوكولاتة والكاكاو"
+  },
+  fr: {
+    name: "Tiramisu chocolat",
+    description: "Tiramisu crémeux au chocolat et cacao"
+  },
+  en: {
+    name: "Chocolate Tiramisu",
+    description: "Creamy tiramisu with chocolate and cocoa"
+  }
+},
+{
+  id: 78,
+  category: "desserts",
+  image: "tiramisu-mangue.webp",
+  price: 280,
+  ar: {
+    name: "تيراميسو بالمانجو",
+    description: "تيراميسو كريمي بطبقات المانجو الطازجة"
+  },
+  fr: {
+    name: "Tiramisu mangue",
+    description: "Tiramisu crémeux à la mangue"
+  },
+  en: {
+    name: "Mango Tiramisu",
+    description: "Creamy mango tiramisu"
+  }
+},
+{
+  id: 79,
+  category: "desserts",
+  image: "tiramisu-kunafa-pistache.webp",
+  price: 300,
+  ar: {
+    name: "تيراميسو كنافة بكريمة الفستق",
+    description: "تيراميسو بالكنافة المقرمشة وكريمة الفستق"
+  },
+  fr: {
+    name: "Tiramisu kunafa à la crème de pistache",
+    description: "Tiramisu à la kunafa croustillante et crème de pistache"
+  },
+  en: {
+    name: "Kunafa Pistachio Cream Tiramisu",
+    description: "Tiramisu with crispy kunafa and pistachio cream"
+  }
+},
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
 {
   id: 61,
