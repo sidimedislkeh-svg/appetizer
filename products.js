@@ -200,7 +200,24 @@ const products = [
   fr: { name: "Cheeseburger", description: "Burger de bœuf avec cheddar, salade, tomate et sauce maison" },
   en: { name: "Cheeseburger", description: "Beef burger with cheddar cheese, lettuce, tomato and house sauce" }
 },
-
+{
+  id: 80,
+  category: "snacks",
+  image: "burger-crispy.webp",
+  price: 200,
+  ar: {
+    name: "برغر كريسبي",
+    description: "دجاج كريسبي مقرمش مع الخس وصلصة البرغر"
+  },
+  fr: {
+    name: "Burger Crispy",
+    description: "Poulet croustillant, laitue et sauce burger"
+  },
+  en: {
+    name: "Crispy Chicken Burger",
+    description: "Crispy chicken, lettuce and burger sauce"
+  }
+},
 {
   id: 13,
   category: "snacks",
@@ -717,6 +734,28 @@ const products = [
     description: "Fresh salad with tuna, eggs and vegetables"
   }
 },
+
+{
+  id: 11,
+  category: "dishes",
+  image: "chicken-nuggets.webp",
+  price: 350,
+
+  ar: {
+    name: "قطع دجاج ناجتس",
+    description: "قطع دجاج مقرمشة تقدم مع البطاطس المقلية والصلصات."
+  },
+
+  fr: {
+    name: "Chicken Nuggets",
+    description: "Morceaux de poulet croustillants servis avec des frites et des sauces."
+  },
+
+  en: {
+    name: "Chicken Nuggets",
+    description: "Crispy chicken nuggets served with fries and dipping sauces."
+  }
+},
 {
   id: 40,
   category: "dishes",
@@ -1187,6 +1226,24 @@ const products = [
   }
 },
 {
+  id: 81,
+  category: "breakfast",
+  image: "breakfast-americain.webp",
+  price: 550,
+  ar: {
+    name: "فطور أمريكي",
+    description: "سلة معجنات، مشروب ساخن، عصير برتقال، مياه معدنية، سلطة فواكه، بان كيك، أومليت، هوت دوغ، ميني ساندويتش دجاج، شرائح جبن غودا ولحم، بان كيك مع الزبدة والمربى والجبن."
+  },
+  fr: {
+    name: "Breakfast Américaine",
+    description: "Panier de viennoiseries, boisson chaude, jus d’orange, eau minérale, salade de fruits, pancakes, omelette, hot-dog, mini sandwich poulet, tranches de gouda et jambon, pancakes avec beurre, confiture et fromage."
+  },
+  en: {
+    name: "American Breakfast",
+    description: "Basket of pastries, hot drink, orange juice, mineral water, fruit salad, pancakes, omelette, hot dog, mini chicken sandwich, gouda cheese and ham slices, pancakes with butter, jam and cheese."
+  }
+},
+{
   id: 63,
   category: "breakfast",
   image: "avocado-tartine.webp",
@@ -1354,7 +1411,9 @@ const products = [
     name: "Gourmet Pastry Selection",
     description: "Chocolate croissant, raisin pastry, sliced raisin bread, orange juice and hot drink"
   }
-},// ─── SHISHA / شيشة ───────────────────────────────────────────────────────────
+},
+
+// ─── SHISHA / شيشة ───────────────────────────────────────────────────────────
  {
   id: 72,
   category: "shisha",
