@@ -384,6 +384,27 @@ const products = [
     description: "Pizza with shrimp, cheese and bell peppers."
   }
 },
+{
+  id: 71,
+  category: "snacks",
+  image: "box-sale.webp",
+  price: 500,
+
+  ar: {
+    name: "بوكس مالح",
+    description: "تشكيلة من السندويشات مع البطاطس المقلية والصلصات."
+  },
+
+  fr: {
+    name: "Box Salé",
+    description: "Assortiment de sandwichs avec frites et sauces."
+  },
+
+  en: {
+    name: "Savory Box",
+    description: "Assorted sandwiches served with fries and sauces."
+  }
+},
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
  {
@@ -739,7 +760,7 @@ const products = [
   id: 11,
   category: "dishes",
   image: "chicken-nuggets.webp",
-  price: 350,
+  price: 250,
 
   ar: {
     name: "قطع دجاج ناجتس",
