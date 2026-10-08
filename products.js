@@ -219,6 +219,24 @@ const products = [
   }
 },
 {
+  id: 86,
+  category: "snacks",
+  image: "lava burger.webp",
+  price: 250,
+  ar: {
+    name: "لافا برغر",
+    description: "برغر بالجبن وصوص كريمي، يقدم مع البطاطس المقلية والصلصات."
+  },
+  fr: {
+    name: "Lava Burger",
+    description: "Burger au fromage et sauce crémeuse, accompagné de frites et de sauces."
+  },
+  en: {
+    name: "Lava Burger",
+    description: "Cheeseburger with creamy sauce, served with French fries and dipping sauces."
+  }
+},
+{
   id: 13,
   category: "snacks",
   image: "meat-sandwich.webp",
@@ -405,6 +423,63 @@ const products = [
     description: "Assorted sandwiches served with fries and sauces."
   }
 },
+{
+  id: 84,
+  category: "snacks",
+  image: "box 4.webp",
+  price: 1200,
+  ar: {
+    name: "بوكس سناك",
+    description: "2 بيتزا، 2 تاكوس، شاورما، بانيني، بطاطس مقلية وكوكاكولا."
+  },
+  fr: {
+    name: "Box Snacks",
+    description: "2 pizzas, 2 tacos, shawarma, panini, frites et Coca-Cola."
+  },
+  en: {
+    name: "Snack Box",
+    description: "2 pizzas, 2 tacos, shawarma, panini, French fries and Coca-Cola."
+  }
+},
+{
+  id: 85,
+  category: "snacks",
+  image: "box 2.webp",
+  price: 900,
+  ar: {
+    name: "بوكس سناك",
+    description: "بيتزا، تاكوس، برغر، بطاطس مقلية و2 كوكاكولا."
+  },
+  fr: {
+    name: "Box Snacks",
+    description: "Pizza, tacos, burger, frites et 2 Coca-Cola."
+  },
+  en: {
+    name: "Snack Box",
+    description: "Pizza, tacos, burger, French fries and 2 Coca-Cola."
+  }
+},
+
+{
+  id: 87,
+  category: "snacks",
+  image: "box 3.webp",
+  price: 600,
+  ar: {
+    name: "بوكس 3",
+    description: "مقلوب، شاورما، كلوب ساندويتش، بطاطس مقلية وكوكاكولا."
+  },
+  fr: {
+    name: "Box 3",
+    description: "Magloub, shawarma, club sandwich, frites et Coca-Cola."
+  },
+  en: {
+    name: "Box 3",
+    description: "Magloub, shawarma, club sandwich, French fries and Coca-Cola."
+  }
+},
+
+
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
  {
