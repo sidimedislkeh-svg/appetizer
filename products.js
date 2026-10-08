@@ -286,6 +286,45 @@ const products = [
 },
 
 {
+  id: 89,
+  category: "snacks",
+  image: "panini poulet.webp",
+  price: 150,
+  ar: {
+    name: "بانيني دجاج",
+    description: "بانيني محشو بالدجاج والجبن، يقدم مع البطاطس المقلية والصلصات."
+  },
+  fr: {
+    name: "Panini poulet",
+    description: "Panini garni de poulet et de fromage, accompagné de frites et de sauces."
+  },
+  en: {
+    name: "Chicken Panini",
+    description: "Panini filled with chicken and cheese, served with French fries and sauces."
+  }
+},
+
+{
+  id: 88,
+  category: "snacks",
+  image: "panini viande.webp",
+  price: 150,
+  ar: {
+    name: "بانيني لحم",
+    description: "بانيني محشو باللحم والجبن، يقدم مع البطاطس المقلية والصلصات."
+  },
+  fr: {
+    name: "Panini viande",
+    description: "Panini garni de viande et de fromage, accompagné de frites et de sauces."
+  },
+  en: {
+    name: "Beef Panini",
+    description: "Panini filled with beef and cheese, served with French fries and sauces."
+  }
+},
+
+
+{
   id: 16,
   category: "snacks",
   image: "baguette-farcie.webp",
@@ -402,6 +441,26 @@ const products = [
     description: "Pizza with shrimp, cheese and bell peppers."
   }
 },
+
+{
+  id: 90,
+  category: "snacks",
+  image: "taison gambon.webp",
+  price: 250,
+  ar: {
+    name: "تايسون جامبون",
+    description: "بيتزا بالجامبون والجبن الذائب وصلصة الطماطم، مع قطع الأناناس والأعشاب العطرية."
+  },
+  fr: {
+    name: "Taison jambon",
+    description: "Pizza garnie de jambon, de fromage fondu, de sauce tomate, de morceaux d'ananas et d'herbes aromatiques."
+  },
+  en: {
+    name: "Taison Ham",
+    description: "Pizza topped with ham, melted cheese, tomato sauce, pineapple pieces and aromatic herbs."
+  }
+},
+
 {
   id: 71,
   category: "snacks",
