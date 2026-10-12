@@ -538,6 +538,159 @@ const products = [
   }
 },
 
+{
+  id: 91,
+    category: "snacks",
+    price: 180,
+    ar: { name: "كلوب ساندويتش لحم" },
+    fr: { name: "Club sandwich viande" },
+    en: { name: "Beef Club Sandwich" }
+  },
+  {
+    id: 92,
+    category: "snacks",
+    price: 180,
+    ar: { name: "كلوب ساندويتش دجاج" },
+    fr: { name: "Club sandwich poulet" },
+    en: { name: "Chicken Club Sandwich" }
+  },
+  {
+    id: 93,
+    category: "snacks",
+    price: 150,
+    ar: { name: "شاورما لحم" },
+    fr: { name: "Chawarma viande" },
+    en: { name: "Beef Shawarma" }
+  },
+  {
+    id: 94,
+    category: "snacks",
+    price: 150,
+    ar: { name: "شاورما دجاج" },
+    fr: { name: "Chawarma poulet" },
+    en: { name: "Chicken Shawarma" }
+  },
+  {
+    id: 95,
+    category: "snacks",
+    price: 180,
+    ar: { name: "شاورما مشكل" },
+    fr: { name: "Chawarma mixte" },
+    en: { name: "Mixed Shawarma" }
+  },
+  {
+    id: 96,
+    category: "snacks",
+    price: 220,
+    ar: { name: "شاورما لحم كبيرة" },
+    fr: { name: "Big Chawarma viande" },
+    en: { name: "Large Beef Shawarma" }
+  },
+  {
+    id: 97,
+    category: "snacks",
+    price: 200,
+    ar: { name: "شاورما دجاج كبيرة" },
+    fr: { name: "Big Chawarma poulet" },
+    en: { name: "Large Chicken Shawarma" }
+  },
+  {
+    id: 98,
+    category: "snacks",
+    price: 150,
+    ar: { name: "ساندويتش ستيك لحم" },
+    fr: { name: "Sandwich steak de bœuf" },
+    en: { name: "Beef Steak Sandwich" }
+  },
+  {
+    id: 99,
+    category: "snacks",
+    price: 190,
+    ar: { name: "ساندويتش بيبيتو لحم" },
+    fr: { name: "Sandwich pépito viande" },
+    en: { name: "Beef Pepito Sandwich" }
+  },
+  {
+    id: 100,
+    category: "snacks",
+    price: 180,
+    ar: { name: "ساندويتش بيبيتو دجاج" },
+    fr: { name: "Sandwich pépito poulet" },
+    en: { name: "Chicken Pepito Sandwich" }
+  },
+  {
+    id: 101,
+    category: "snacks",
+    price: 150,
+    ar: { name: "ساندويتش شيش طاووق" },
+    fr: { name: "Sandwich chich-taouk" },
+    en: { name: "Shish Taouk Sandwich" }
+  },
+  {
+    id: 102,
+    category: "snacks",
+    price: 180,
+    ar: { name: "بانوزو لحم" },
+    fr: { name: "Panozzo viande" },
+    en: { name: "Beef Panozzo" }
+  },
+  {
+    id: 103,
+    category: "snacks",
+    price: 180,
+    ar: { name: "بانوزو دجاج" },
+    fr: { name: "Panozzo poulet" },
+    en: { name: "Chicken Panozzo" }
+  },
+  {
+    id: 104,
+    category: "snacks",
+    price: 300,
+    ar: { name: "بانوزو روبيان" },
+    fr: { name: "Panozzo crevettes" },
+    en: { name: "Shrimp Panozzo" }
+    },
+  {
+    id: 105,
+    category: "snacks",
+    price: 220,
+    ar: { name: "برغر لحم كبير" },
+    fr: { name: "Big burger viande" },
+    en: { name: "Big Beef Burger" }
+  },
+  {
+    id: 106,
+    category: "snacks",
+    price: 200,
+    ar: { name: "برغر دجاج كبير" },
+    fr: { name: "Big burger poulet" },
+    en: { name: "Big Chicken Burger" }
+  },
+  {
+    id: 107,
+    category: "snacks",
+    price: 220,
+    ar: { name: "برغر دجاج كوردون بلو" },
+    fr: { name: "Burger cordon bleu poulet" },
+    en: { name: "Chicken Cordon Bleu Burger" }
+    },
+  {
+    id: 114,
+    category: "snacks",
+    price: 250,
+    ar: { name: "بيتزا رين" },
+    fr: { name: "Pizza reine" },
+    en: { name: "Regina Pizza" }
+    },
+      {
+    id: 115,
+    category: "snacks",
+    price: 300,
+    ar: { name: "بيتزا تايسون بالروبيان" },
+    fr: { name: "Pizza Taison crevettes" },
+    en: { name: "Taison Shrimp Pizza" }
+    },
+
 
 
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
@@ -1060,6 +1213,55 @@ const products = [
     description: "Spaghetti with olive oil, garlic, Italian herbs and chili flakes"
   }
 },
+
+  {
+    id: 108,
+    category: "dishes",
+    price: 500,
+    ar: { name: "ميداليون لحم بقري" },
+    fr: { name: "Médaillon de bœuf" },
+    en: { name: "Beef Medallions" }
+  },
+  {
+    id: 109,
+    category: "dishes",
+    price: 550,
+    ar: { name: "روبيان جامبو مشوي" },
+    fr: { name: "Gambas grillées" },
+    en: { name: "Grilled King Prawns" }
+  },
+  {
+    id: 110,
+    category: "dishes",
+    price: 550,
+    ar: { name: "روبيان جامبو سوتيه بالثوم" },
+    fr: { name: "Gambas sautées à l'ail" },
+    en: { name: "Garlic Sautéed King Prawns" }
+  },
+  {
+    id: 111,
+    category: "dishes",
+    price: 350,
+    ar: { name: "طبق شاورما لحم" },
+    fr: { name: "Plat chawarma viande" },
+    en: { name: "Beef Shawarma Plate" }
+  },
+  {
+    id: 112,
+    category: "dishes",
+    price: 300,
+    ar: { name: "طبق شاورما دجاج" },
+    fr: { name: "Plat chawarma poulet" },
+    en: { name: "Chicken Shawarma Plate" }
+  },
+  {
+    id: 113,
+    category: "dishes",
+    price: 300,
+    ar: { name: "كفتة لحم" },
+    fr: { name: "Kefta de viande" },
+    en: { name: "Beef Kofta" }
+    },
 
   // ─── DESSERTS / تحلية ────────────────────────────────────────────────────────
   {
