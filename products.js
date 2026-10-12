@@ -488,15 +488,15 @@ const products = [
   image: "box 4.webp",
   price: 1200,
   ar: {
-    name: "بوكس سناك",
+    name: "بوكس  1",
     description: "2 بيتزا، 2 تاكوس، شاورما، بانيني، بطاطس مقلية وكوكاكولا."
   },
   fr: {
-    name: "Box Snacks",
+    name: "Box 1",
     description: "2 pizzas, 2 tacos, shawarma, panini, frites et Coca-Cola."
   },
   en: {
-    name: "Snack Box",
+    name: " Box 1",
     description: "2 pizzas, 2 tacos, shawarma, panini, French fries and Coca-Cola."
   }
 },
@@ -506,15 +506,15 @@ const products = [
   image: "box 2.webp",
   price: 900,
   ar: {
-    name: "بوكس سناك",
+    name: "بوكس 2",
     description: "بيتزا، تاكوس، برغر، بطاطس مقلية و2 كوكاكولا."
   },
   fr: {
-    name: "Box Snacks",
+    name: "Box 2",
     description: "Pizza, tacos, burger, frites et 2 Coca-Cola."
   },
   en: {
-    name: "Snack Box",
+    name: " Box 2",
     description: "Pizza, tacos, burger, French fries and 2 Coca-Cola."
   }
 },
