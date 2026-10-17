@@ -690,6 +690,49 @@ const products = [
     fr: { name: "Pizza Taison crevettes" },
     en: { name: "Taison Shrimp Pizza" }
     },
+    
+{
+  id: 119,
+  category: "snacks",
+  price: 150,
+  ar: { name: "برغر كلاسيك" },
+  fr: { name: "Burger classique" },
+  en: { name: "Classic Burger" }
+},
+{
+  id: 120,
+  category: "snacks",
+  price: 200,
+  ar: { name: "برغر دجاج" },
+  fr: { name: "Burger poulet" },
+  en: { name: "Chicken Burger" }
+},
+
+{
+  id: 121,
+  category: "snacks",
+  price: 250,
+  ar: { name: "بيتزا بيبروني" },
+  fr: { name: "Pizza pepperoni" },
+  en: { name: "Pepperoni Pizza" }
+},
+{
+  id: 122,
+  category: "snacks",
+  price: 250,
+  ar: { name: "بيتزا هاواي" },
+  fr: { name: "Pizza hawaïenne" },
+  en: { name: "Hawaiian Pizza" }
+},
+{
+  id: 123,
+  category: "snacks",
+  price: 230,
+  ar: { name: "بيتزا نباتية" },
+  fr: { name: "Pizza végétarienne" },
+  en: { name: "Vegetarian Pizza" }
+},
+
 
 
 
@@ -1262,6 +1305,56 @@ const products = [
     fr: { name: "Kefta de viande" },
     en: { name: "Beef Kofta" }
     },
+    
+{
+  id: 124,
+  category: "dishes",
+  price: 350,
+  ar: { name: "غراتان" },
+  fr: { name: "Gratin" },
+  en: { name: "Gratin" }
+},
+{
+  id: 126,
+  category: "dishes",
+  price: 450,
+  ar: { name: "لازانيا فواكه البحر" },
+  fr: { name: "Lasagne aux fruits de mer" },
+  en: { name: "Seafood Lasagna" }
+},
+{
+  id: 128,
+  category: "dishes",
+  price: 450,
+  ar: { name: "تالياتيلي بالروبيان" },
+  fr: { name: "Tagliatelle aux crevettes" },
+  en: { name: "Shrimp Tagliatelle" }
+},
+{
+  id: 129,
+  category: "dishes",
+  price: 350,
+  ar: { name: "تالياتيلي بالصلصة الوردية" },
+  fr: { name: "Tagliatelle sauce rosée" },
+  en: { name: "Tagliatelle with Pink Sauce" }
+},
+{
+  id: 130,
+  category: "dishes",
+  price: 600,
+  ar: { name: "فيليه لحم بقري بصلصة الفطر" },
+  fr: { name: "Filet de bœuf sauce champignons" },
+  en: { name: "Beef Fillet with Mushroom Sauce" }
+},
+{
+  id: 131,
+  category: "dishes",
+  price: 440,
+  ar: { name: "شرائح لحم بقري بالصلصة البيضاء" },
+  fr: { name: "Émincé de bœuf sauce blanche" },
+  en: { name: "Sliced Beef in White Sauce" }
+},
+
 
   // ─── DESSERTS / تحلية ────────────────────────────────────────────────────────
   {
@@ -1544,6 +1637,53 @@ const products = [
     description: "Tiramisu with crispy kunafa and pistachio cream"
   }
 },
+
+
+{
+  id: 132,
+  category: "desserts",
+  price: 120,
+  ar: {
+    name: "جيلاتو بالشوكولاتة (كرتان)"
+  },
+  fr: {
+    name: "Gelato chocolat (2 boules)"
+  },
+  en: {
+    name: "Chocolate Gelato (2 scoops)"
+  }
+},
+{
+  id: 133,
+  category: "desserts",
+  price: 120,
+  ar: {
+    name: "جيلاتو بالفراولة (كرتان)"
+  },
+  fr: {
+    name: "Gelato fraise (2 boules)"
+  },
+  en: {
+    name: "Strawberry Gelato (2 scoops)"
+  }
+},
+{
+  id: 134,
+  category: "desserts",
+  price: 120,
+  ar: {
+    name: "جيلاتو بالفانيليا (كرتان)"
+  },
+  fr: {
+    name: "Gelato vanille (2 boules)"
+  },
+  en: {
+    name: "Vanilla Gelato (2 scoops)"
+  }
+},
+
+
+
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
 {
   id: 61,
