@@ -669,7 +669,7 @@ const products = [
   {
     id: 107,
     category: "snacks",
-    price: 220,
+    price: 250,
     ar: { name: "برغر دجاج كوردون بلو" },
     fr: { name: "Burger cordon bleu poulet" },
     en: { name: "Chicken Cordon Bleu Burger" }
@@ -829,7 +829,7 @@ const products = [
   id: 29,
   category: "dishes",
   image: "lamb-chops.webp",
-  price: 640,
+  price: 600,
   ar: { name: "ريش لحم الضأن", description: "ريش ضأن مشوية تقدم مع البطاطس والخضروات" },
   fr: { name: "Côtelette d’Agneau", description: "Côtelettes d'agneau grillées servies avec pommes de terre et légumes" },
   en: { name: "Lamb Chops", description: "Grilled lamb chops served with potatoes and seasonal vegetables" }
@@ -1087,7 +1087,7 @@ const products = [
   id: 41,
   category: "dishes",
   image: "fettuccine-alfredo.webp",
-  price: 380,
+  price: 350,
   ar: {
     name: "فيتوتشيني ألفريدو",
     description: "فيتوتشيني بصلصة ألفريدو الكريمية مع صدر دجاج مشوي وجبن البارميزان"
@@ -1770,12 +1770,68 @@ const products = [
   }
 },
 
+
+{
+  id: 116,
+  category: "breakfast",
+  price: 350,
+  ar: {
+    name: "فطور أبتيزر 1",
+    description: "ميني ساندويتش دجاج، بيض مخفوق، خضروات سوتيه، عصير برتقال، قهوة، ماء، فيرين حسب الاختيار، وسلة معجنات."
+  },
+  fr: {
+    name: "Appetizer 1",
+    description: "Mini sandwich au poulet, œufs brouillés, légumes sautés, jus d'orange, café, eau, verrine au choix et panier de viennoiseries."
+  },
+  en: {
+    name: "Appetizer 1 Breakfast",
+    description: "Mini chicken sandwich, scrambled eggs, sautéed vegetables, orange juice, coffee, water, verrine of your choice and a basket of pastries."
+  }
+},
+
+{
+  id: 117,
+  category: "breakfast",
+  price: 400,
+  ar: {
+    name: "فطور أبتيزر 2",
+    description: "ميني ساندويتش تونة، بيض مسلوق، بطاطس بالمايونيز، قهوة، ماء، سلة معجنات، وفيرين حسب الاختيار."
+  },
+  fr: {
+    name: "Appetizer 2",
+    description: "Mini sandwich au thon, œuf dur, pommes de terre à la mayonnaise, café, eau, panier de viennoiseries et verrine au choix."
+  },
+  en: {
+    name: "Appetizer 2 Breakfast",
+    description: "Mini tuna sandwich, boiled egg, potatoes with mayonnaise, coffee, water, a basket of pastries and a verrine of your choice."
+  }
+},
+
+{
+  id: 118,
+  category: "breakfast",
+  price: 850,
+  ar: {
+    name: "بوكس فطور أبتيزر",
+    description: "ميني ساندويتش دجاج أو تونة، بيض مخفوق، خضروات سوتيه، بيضتان مسلوقتان، بطاطس بالمايونيز، عصيرا برتقال، كوبان من القهوة، سلة معجنات، توست بالدجاج أو التونة، وفيرين حسب الاختيار."
+  },
+  fr: {
+    name: "Appetizer Box",
+    description: "Mini sandwich au poulet ou au thon, œufs brouillés, légumes sautés, 2 œufs durs, pommes de terre à la mayonnaise, 2 jus d'orange, 2 cafés, panier de viennoiseries, toast au poulet ou au thon et verrine au choix."
+  },
+  en: {
+    name: "Appetizer Breakfast Box",
+    description: "Mini chicken or tuna sandwich, scrambled eggs, sautéed vegetables, 2 boiled eggs, potatoes with mayonnaise, 2 orange juices, 2 coffees, a basket of pastries, chicken or tuna toast and a verrine of your choice."
+  }
+},
+
+
 // ─── SHISHA / شيشة ───────────────────────────────────────────────────────────
  {
   id: 72,
   category: "shisha",
   image: "shisha-hawaii.webp",
-  price: 300,
+  price: 200,
   ar: { name: "شيشة Hawaii", description: "نكهة استوائية منعشة بمزيج فواكه هاواي" },
   fr: { name: "Chicha Hawaii", description: "Saveur tropicale inspirée des fruits d'Hawaï" },
   en: { name: "Hawaii Shisha", description: "Premium tropical Hawaiian fruit flavor" }
@@ -1785,7 +1841,7 @@ const products = [
   id: 73,
   category: "shisha",
   image: "shisha-love.webp",
-  price: 300,
+  price: 200,
   ar: { name: "شيشة Love", description: "مزيج فواكه حلوة ومنعشة بطعم مميز" },
   fr: { name: "Chicha Love", description: "Mélange de saveurs fruitées douces et rafraîchissantes" },
   en: { name: "Love Shisha", description: "Premium sweet and refreshing fruit blend" }
@@ -1795,7 +1851,7 @@ const products = [
   id: 74,
   category: "shisha",
   image: "shisha-nana.webp",
-  price: 300,
+  price: 200,
   ar: { name: "شيشة Nana", description: "نكهة النعناع المنعشة بطعم نقي ومميز" },
   fr: { name: "Chicha Nana", description: "Chicha premium à la menthe fraîche" },
   en: { name: "Nana Shisha", description: "Premium fresh mint flavor" }
@@ -1805,10 +1861,9 @@ const products = [
   id: 75,
   category: "shisha",
   image: "shisha-miamor.webp",
-  price: 300,
+  price: 200,
   ar: { name: "شيشة Mi Amor", description: "مزيج فاخر من النكهات بطابع حلو ومنعش" },
   fr: { name: "Chicha Mi Amor", description: "Mélange premium aux saveurs douces et raffinées" },
-  en: { name: "Mi Amor Shisha", description: "Premium sweet and refined flavor blend" }
-},
-
+    en: { name: "Mi Amor Shisha", description: "Premium sweet and refined flavor blend" }
+}
 ];
